@@ -1,0 +1,422 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_WorldItem_Artifact",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Deactivate",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldItem_C'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.39"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_WorldItem_Artifact_C:Timeline_0_Template'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.15"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WorldItem_Artifact_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.14"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_WorldItem_Artifact_C:InheritableComponentHandler'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:ExecuteUbergraph_BP_WorldItem_Artifact'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldItem_C'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.39"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.3"
+      },
+      {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.2"
+      },
+      {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:Deactivate'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.1"
+      },
+      {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:ExecuteUbergraph_BP_WorldItem_Artifact'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ArtifactEffect",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_NewTrack_0_1777251F49A23BD0C5EBBBA06A155B8D",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_1777251F49A23BD0C5EBBBA06A155B8D",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_WorldItem_Artifact": {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:ExecuteUbergraph_BP_WorldItem_Artifact'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.0"
+      },
+      "Deactivate": {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:Deactivate'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.1"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.2"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function'BP_WorldItem_Artifact_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WorldItem_Artifact_C'Default__BP_WorldItem_Artifact_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.5"
+    }
+  },
+  {
+    "Type": "BP_WorldItem_Artifact_C",
+    "Name": "Default__BP_WorldItem_Artifact_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.BP_WorldItem_Artifact_C'",
+    "Template": {
+      "ObjectName": "BP_WorldItem_C'Default__BP_WorldItem_C'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.40"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "FuzzyMatched": false
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'CurveFloat'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": -0.35321927,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -0.35321918,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ArtifactEffect_GEN_VARIABLE",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "AttenuationRadius": 300.0,
+      "Intensity": 8.0,
+      "LightColor": {
+        "B": 117,
+        "G": 120,
+        "R": 255,
+        "A": 255,
+        "Hex": "FF7875"
+      },
+      "CastShadows": false,
+      "VolumetricScatteringIntensity": 0.5,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 4.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1E-06,
+        "Roll": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": -1E-06,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 0.0,
+      "Y": -0.0,
+      "Z": 4.0
+    },
+    "IntensityNits": 8.0,
+    "bUseInverseSquaredFalloff": false
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WorldItem_Artifact_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.10"
+      },
+      "VariableGuid": "CECEE284-48C40449-3CEFDF95-A7E7802E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_WorldItem_Artifact_C:ArtifactEffect_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.8"
+      },
+      "ParentComponentOrVariableName": "StaticMesh",
+      "ParentComponentOwnerClassName": "BP_WorldItem_C",
+      "VariableGuid": "18762F58-451D2677-8A2DBE8E-D0EA2330",
+      "InternalVariableName": "ArtifactEffect"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_WorldItem_Artifact_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.9"
+      },
+      "ParentComponentOrVariableName": "StaticMesh",
+      "ParentComponentOwnerClassName": "BP_WorldItem_C",
+      "VariableGuid": "220F1C2B-4DE2B9BD-3EC8338F-B5E41CA2",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WorldItem_Artifact_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WorldItem_Artifact_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.13"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WorldItem_Artifact_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WorldItem_Artifact_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.13"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WorldItem_Artifact_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.11"
+      }
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Outer": "BP_WorldItem_Artifact_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TimelineLength": 1.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_WorldItem_Artifact_C:CurveFloat_0'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.6"
+          },
+          "PropertyName": "Timeline_0_NewTrack_0_1777251F49A23BD0C5EBBBA06A155B8D",
+          "TrackName": "NewTrack_0",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "1777251F-49A23BD0-C5EBBBA0-6A155B8D",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_1777251F49A23BD0C5EBBBA06A155B8D",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  }
+]

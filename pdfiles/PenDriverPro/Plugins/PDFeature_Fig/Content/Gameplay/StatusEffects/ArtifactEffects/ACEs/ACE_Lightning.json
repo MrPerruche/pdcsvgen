@@ -1,0 +1,1551 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ACE_Lightning",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Abs_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Amount_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Amount",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_MultiGate_FirstRun",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_MultiGate_ScratchBool",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_MultiGate_ScratchIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_FMod_Remainder",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_FMod_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_TuningFloatToFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_TuningFloatToFloat_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_FloatRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasBeenLongEnoughToResetStrikes_EnoughTimePassed",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEnd",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEnd'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.5"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEnd'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.5"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetStrikes",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEffectDecrease",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEffectDecrease'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.3"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEffectDecrease'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Amount",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEffectIncrease",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEffectIncrease'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.4"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEffectIncrease'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Amount",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetHitLocation",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "RandomLoc",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Result",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Vector_Up_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_FindLandscapeSurface_SurfaceLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_FindLandscapeSurface_SurfaceNormal",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_FindLandscapeSurface_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "ByteProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum'EObjectTypeQuery'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Vector_Down_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LineTraceSingleForObjects_OutHit",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LineTraceSingleForObjects_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BreakHitResultSimple_Hit",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResultSimple_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResultSimple_Normal",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BreakHitResultSimple_Component",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Vector_Up_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_LineTraceSingle_OutHit",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LineTraceSingle_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BreakHitResultSimple_Hit_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResultSimple_Location_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResultSimple_Normal_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BreakHitResultSimple_Component_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetEffectText",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:GetEffectText'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.11"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:GetEffectText'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.11"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Increase",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Desc",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetEffectText_Desc",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "Function",
+    "Name": "SmiteWithLightning",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDrivingGameInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DrivingGameInstance'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetTimeSeconds_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsInGarage_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_TuningFloatToFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_WeightedBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Conv_TuningVecToVec_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Hazard_LightningStrike_C'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Hazards/HazardProperties/LightningStrike/BP_Hazard_LightningStrike.8"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_MainCharacterManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_MainCharacterManager.156"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_TuningFloatToFloat_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCharacterActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'BaseCharacter'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_TuningFloatToFloat_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_ActorTagQuery_OutActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_ActorTagQuery_OutActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_ActorTagQuery_OutBestMatch",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Float_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_MainCharacterManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_MainCharacterManager.156"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCharacterActor_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'BaseCharacter'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetActorForwardVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ProjectVectorOnToPlane_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_RandomPointInBoundingBox_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetHitLocation_Result",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "RegenerateStrikeDelays",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Index",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CurrentDelay",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_TuningFloatToFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_IntFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchInteger_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Float_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Float_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_FMax_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "HasBeenLongEnoughToResetStrikes",
+    "Outer": "ACE_Lightning_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "EnoughTimePassed",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_TuningFloatToFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetGameTimeInSeconds_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_Lightning_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.15"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ACE_Lightning_C:ExecuteUbergraph_ACE_Lightning'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.15"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ACE_Lightning_C:HasBeenLongEnoughToResetStrikes'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.9"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:RegenerateStrikeDelays'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.8"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:SmiteWithLightning'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.7"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:GetEffectText'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.6"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:GetHitLocation'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.5"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:OnEffectIncrease'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.4"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:OnEffectDecrease'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.3"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:ResetStrikes'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.2"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:OnEnd'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.1"
+      },
+      {
+        "ObjectName": "Function'ACE_Lightning_C:ExecuteUbergraph_ACE_Lightning'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ChanceToTargetStrike",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 20,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TuningFloat'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ForwardOffset",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 20,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TuningFloat'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BoundingBox",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 64,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TuningVector'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ConsecutiveCooldownMin",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 20,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TuningFloat'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ConsecutiveCooldownMax",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 20,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TuningFloat'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "StrikeDelays",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "FloatProperty",
+          "Name": "StrikeDelays",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "MinTimeBetweenStrikes",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 20,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TuningFloat'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "LastStrikeTime",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ConsecutiveCooldownHandle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Dying",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ChanceToBolt",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 20,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TuningFloat'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ACE_Lightning": {
+        "ObjectName": "Function'ACE_Lightning_C:ExecuteUbergraph_ACE_Lightning'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.0"
+      },
+      "OnEnd": {
+        "ObjectName": "Function'ACE_Lightning_C:OnEnd'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.1"
+      },
+      "ResetStrikes": {
+        "ObjectName": "Function'ACE_Lightning_C:ResetStrikes'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.2"
+      },
+      "OnEffectDecrease": {
+        "ObjectName": "Function'ACE_Lightning_C:OnEffectDecrease'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.3"
+      },
+      "OnEffectIncrease": {
+        "ObjectName": "Function'ACE_Lightning_C:OnEffectIncrease'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.4"
+      },
+      "GetHitLocation": {
+        "ObjectName": "Function'ACE_Lightning_C:GetHitLocation'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.5"
+      },
+      "GetEffectText": {
+        "ObjectName": "Function'ACE_Lightning_C:GetEffectText'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.6"
+      },
+      "SmiteWithLightning": {
+        "ObjectName": "Function'ACE_Lightning_C:SmiteWithLightning'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.7"
+      },
+      "RegenerateStrikeDelays": {
+        "ObjectName": "Function'ACE_Lightning_C:RegenerateStrikeDelays'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.8"
+      },
+      "HasBeenLongEnoughToResetStrikes": {
+        "ObjectName": "Function'ACE_Lightning_C:HasBeenLongEnoughToResetStrikes'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.9"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_Lightning_C'Default__ACE_Lightning_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.11"
+    }
+  },
+  {
+    "Type": "ACE_Lightning_C",
+    "Name": "Default__ACE_Lightning_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Lightning.ACE_Lightning_C'",
+    "Template": {
+      "ObjectName": "BP_ArtifactCauseEffect_C'Default__BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.16"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ChanceToTargetStrike": {
+        "TuningTag": {
+          "TagName": "WB.Tuning.Artifacts.Effects.Lightning.ChanceToTargetStrike"
+        },
+        "TuningFloat": 0.1
+      },
+      "ForwardOffset": {
+        "TuningTag": {
+          "TagName": "WB.Tuning.Artifacts.Effects.Lightning.ForwardOffset"
+        },
+        "TuningFloat": 1000.0
+      },
+      "BoundingBox": {
+        "bOverride_TuningVector": false,
+        "TuningTagX": {
+          "TagName": "None"
+        },
+        "TuningTagY": {
+          "TagName": "None"
+        },
+        "TuningTagZ": {
+          "TagName": "None"
+        },
+        "TuningTag": {
+          "TagName": "WB.Tuning.Artifacts.Effects.Lightning.Bounds"
+        },
+        "TuningVector": {
+          "X": 500.0,
+          "Y": 500.0,
+          "Z": 100.0
+        }
+      },
+      "ConsecutiveCooldownMin": {
+        "TuningTag": {
+          "TagName": "WB.Tuning.Artifacts.Effects.Lightning.ConsecutiveStrikeCooldown.Min"
+        },
+        "TuningFloat": 0.0
+      },
+      "ConsecutiveCooldownMax": {
+        "TuningTag": {
+          "TagName": "WB.Tuning.Artifacts.Effects.Lightning.ConsecutiveStrikeCooldown.Max"
+        },
+        "TuningFloat": 0.0
+      },
+      "MinTimeBetweenStrikes": {
+        "TuningTag": {
+          "TagName": "WB.Tuning.Artifacts.Effects.Lightning.MinTimeBetweenStrikes"
+        },
+        "TuningFloat": 0.0
+      },
+      "ConsecutiveCooldownHandle": {
+        "Handle": 0
+      },
+      "ChanceToBolt": {
+        "TuningTag": {
+          "TagName": "WB.Tuning.Artifacts.Effects.Lightning.ChanceToBolt"
+        },
+        "TuningFloat": 0.0
+      },
+      "EffectDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_lightning_title_effect",
+        "SourceString": "Shock",
+        "LocalizedString": "Shock"
+      },
+      "EffectUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_lightning_title_effect",
+        "SourceString": "Shock",
+        "LocalizedString": "Shock"
+      },
+      "EffectDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_lightning_desc_effect",
+        "SourceString": "<name.lightning>lightning</><img id=\"lightning\"/> <verb.strange>strikes nearby</>",
+        "LocalizedString": "<name.lightning>lightning</><img id=\"lightning\"/> <verb.strange>strikes nearby</>"
+      },
+      "EffectIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_lightning_desc_effect",
+        "SourceString": "<name.lightning>lightning</><img id=\"lightning\"/> <verb.strange>strikes nearby</>",
+        "LocalizedString": "<name.lightning>lightning</><img id=\"lightning\"/> <verb.strange>strikes nearby</>"
+      },
+      "RichIconName": "lightning"
+    }
+  }
+]

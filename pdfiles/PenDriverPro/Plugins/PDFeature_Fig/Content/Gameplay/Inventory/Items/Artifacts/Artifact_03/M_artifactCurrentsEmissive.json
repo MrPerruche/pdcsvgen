@@ -1,0 +1,375 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_artifactCurrentsEmissive",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionLinearInterpolate_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "ShadingModel": "MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_1",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "5E360C1A-43638123-37C5C3AA-88F1214C",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              1127604729652984635,
+              1341926640677084230,
+              13016799783781593878,
+              17724729106936980089,
+              18362798380545802990
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Param_4",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Param_5",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FPFOVBlend",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Param_3",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Param_6",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "F25A757B-4A20DD85-275B87AB-6933CDB7",
+              "41352F39-4C3673A8-3DADD2B4-0E5595F1",
+              "E4CA0DAC-467E1EB5-1C932FAB-D893BBE6",
+              "AC2EDE70-426175C4-AE705483-E945AF4A",
+              "7146F9D9-4A48112F-9F2D2988-0A5DA9F1"
+            ]
+          },
+          "RuntimeEntries[1]": {
+            "NameHashes": [
+              5715783085211599032,
+              10371715421228879687
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Param_1",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Param",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "EC30F7DA-4877676D-9C23A3A2-04074CF1",
+              "DBF21BF4-4586AB47-57A15A93-5022E0C4"
+            ]
+          },
+          "ScalarValues": [
+            0.1,
+            0.5,
+            0.0,
+            0.1,
+            0.8
+          ],
+          "VectorValues": [
+            {
+              "R": 5.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF0000"
+            },
+            {
+              "R": 0.5,
+              "G": 0.004583,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "BC0E00"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D'Concrete_02_D_Blurred'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/Concrete_02_D_Blurred.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Noise_Soft_32bit'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/T_Noise_Soft_32bit.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+            "Function": {
+              "ObjectName": "MaterialFunction'CameraDirectionVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+            }
+          },
+          {
+            "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+            "Function": {
+              "ObjectName": "MaterialFunction'CameraDirectionVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+            }
+          },
+          {
+            "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+            "Function": {
+              "ObjectName": "MaterialFunction'CameraDirectionVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+            }
+          },
+          {
+            "StateId": "DE36398D-4742C47A-21AFADA6-0CA5CB70",
+            "Function": {
+              "ObjectName": "MaterialFunction'FOV'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/FOV.0"
+            }
+          },
+          {
+            "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+            "Function": {
+              "ObjectName": "MaterialFunction'CameraDirectionVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+            }
+          },
+          {
+            "StateId": "217351A0-4DA406BE-86DA869A-B659D251",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_WeaponFOV'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_WeaponFOV.0"
+            }
+          }
+        ],
+        "ParameterCollectionInfos": [
+          {
+            "StateId": "8599BA3B-4DF3581D-DBC1878F-20335ED6",
+            "ParameterCollection": {
+              "ObjectName": "MaterialParameterCollection'MPC_FPFOV'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MPC/MPC_FPFOV.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "Parameters": {
+        "RuntimeEntries": {
+          "NameHashes": [
+            1127604729652984635,
+            1341926640677084230,
+            13016799783781593878,
+            17724729106936980089,
+            18362798380545802990
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Param_4",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Param_5",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "FPFOVBlend",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Param_3",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Param_6",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "F25A757B-4A20DD85-275B87AB-6933CDB7",
+            "41352F39-4C3673A8-3DADD2B4-0E5595F1",
+            "E4CA0DAC-467E1EB5-1C932FAB-D893BBE6",
+            "AC2EDE70-426175C4-AE705483-E945AF4A",
+            "7146F9D9-4A48112F-9F2D2988-0A5DA9F1"
+          ]
+        },
+        "RuntimeEntries[1]": {
+          "NameHashes": [
+            5715783085211599032,
+            10371715421228879687
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Param_1",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Param",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "EC30F7DA-4877676D-9C23A3A2-04074CF1",
+            "DBF21BF4-4586AB47-57A15A93-5022E0C4"
+          ]
+        },
+        "ScalarValues": [
+          0.1,
+          0.5,
+          0.0,
+          0.1,
+          0.8
+        ],
+        "VectorValues": [
+          {
+            "R": 5.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF0000"
+          },
+          {
+            "R": 0.5,
+            "G": 0.004583,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "BC0E00"
+          }
+        ]
+      },
+      "ReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'Concrete_02_D_Blurred'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/Concrete_02_D_Blurred.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Noise_Soft_32bit'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/T_Noise_Soft_32bit.0"
+        }
+      ],
+      "FunctionInfos": [
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "DE36398D-4742C47A-21AFADA6-0CA5CB70",
+          "Function": {
+            "ObjectName": "MaterialFunction'FOV'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/FOV.0"
+          }
+        },
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "217351A0-4DA406BE-86DA869A-B659D251",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_WeaponFOV'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_WeaponFOV.0"
+          }
+        }
+      ],
+      "ParameterCollectionInfos": [
+        {
+          "StateId": "8599BA3B-4DF3581D-DBC1878F-20335ED6",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'MPC_FPFOV'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MPC/MPC_FPFOV.0"
+          }
+        }
+      ],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+]

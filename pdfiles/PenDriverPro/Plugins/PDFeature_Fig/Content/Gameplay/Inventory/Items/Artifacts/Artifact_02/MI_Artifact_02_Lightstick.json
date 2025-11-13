@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Artifact_02_Lightstick",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_LightStick_Base'",
+        "ObjectPath": "PenDriverPro/Content/Env/Forest/Shrubs/Grass/BurningSticks/M_LightStick_Base.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Base Tile Rate",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "67FDAD9F-488BEA45-C7AA4083-9DEC23E5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Glow Blend Sharp",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.892337,
+          "ExpressionGUID": "A37EB206-480158ED-E0084991-96AB1BBD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Glow Blend Str",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.452554,
+          "ExpressionGUID": "5BCD595B-4431883E-B38864A4-9DA82E3A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Style NumLev",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.0,
+          "ExpressionGUID": "446DAB85-4F0C3A4A-D5F29CBB-A3D6CCA7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Aspect Ratio",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 2.0,
+            "G": 3.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FFFF00"
+          },
+          "ExpressionGUID": "C107A337-4376906D-4816A780-DFAA5F4F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "GlowColor1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 5.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF0000"
+          },
+          "ExpressionGUID": "497CDE71-4FB644BD-7389CCB6-0CBFF051"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Enable Car Bending",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "4F075BAD-49FA0C29-3A15BDB5-83D5D830"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Enable Random Rotation adn Offset",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "F5431F98-4A4FEDD0-2C13CD93-82B20490"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Use Grass FIG WPO",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "301D31E8-4A9EA293-FA99CE98-DBAB3158"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Enable Item Flattening WPO",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "E8CF17CC-481E3436-D0E2DA9C-C2D4274E"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "SwizzleUV",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "10A92266-4F36A8D4-B8FCF79D-F32DCFDF"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_Bark_Pine_02_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_D.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Bark_Pine_02_N'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Bark_Mossy_01_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_D.0"
+        },
+        {
+          "ObjectName": "TextureRenderTarget2D'RT_GlobalHeightCapture_Final'",
+          "ObjectPath": "PenDriverPro/Content/Systems/GlobalHeightCapture/RT_GlobalHeightCapture_Final.0"
+        }
+      ],
+      "LightmassSettings": {
+        "bCastShadowAsMasked": true
+      }
+    },
+    "LoadedMaterialResources": []
+  }
+]

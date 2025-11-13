@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Artifact_01_Crystal",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_ArtifactCrystalCore'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/VFX/Gameplay/Inventory/Items/Artifacts/FX/M_ArtifactCrystalCore.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "FPFOVBlend",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "1B7D4674-4A8896BA-C0E59CAA-9D24EB17"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Height Ratio",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.4,
+          "ExpressionGUID": "3081FEB7-448912D5-49578A83-E017478F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "newp",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.8,
+          "ExpressionGUID": "355B9012-4276212D-BD9616A3-F4F8B815"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_3",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "EE1674A3-4E1AF975-9211D4B4-614D424A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_5",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 10.0,
+          "ExpressionGUID": "E92C9106-44207BAB-0E9FE993-97B32A37"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "GlyphColor",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 2.0,
+            "G": 0.233333,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF8500"
+          },
+          "ExpressionGUID": "92D9597A-4CE1DD78-D91F338D-41B20BBA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.391572,
+            "G": 0.038455,
+            "B": 0.011164,
+            "A": 1.0,
+            "Hex": "A8371B"
+          },
+          "ExpressionGUID": "F879FFFF-48C1A585-8F0432BA-112E843D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "v",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 2.0,
+            "G": 0.175566,
+            "B": 0.175566,
+            "A": 0.0,
+            "Hex": "FF7474"
+          },
+          "ExpressionGUID": "FBC3AF42-452C0BFA-CCEA19B8-667DB67F"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_Subsurface",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "evolved",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "47F041A5-4CAB7C7A-2E5FE983-957E009E"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_ThermoCrystals_N'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Resources/ThermoCrystals/T_ThermoCrystals_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Noise_Cloud_01'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/T_Noise_Cloud_01.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Concrete_Broken_01_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Concrete/T_Concrete_Broken_01_D.0"
+        },
+        {
+          "ObjectName": "Texture2D'Concrete_02_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/Concrete_02_D.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Noise_SoftPerlin_01'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/T_Noise_SoftPerlin_01.0"
+        },
+        {
+          "ObjectName": "Texture2D'GlyphLines_bigSheet'",
+          "ObjectPath": "PenDriverPro/Content/VFX/Textures/GlyphLines_bigSheet.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "Concrete_02_D"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

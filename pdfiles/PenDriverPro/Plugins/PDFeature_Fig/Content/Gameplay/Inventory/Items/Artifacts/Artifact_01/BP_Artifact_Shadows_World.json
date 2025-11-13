@@ -1,0 +1,418 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Artifact_Shadows_World",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnAndAttachOneShotAkComponent_AkComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AkComponent'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_SpawnAndAttachOneShotAkComponent_PlayingID",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "SparseDelegateFunction'ActorDestroyedSignature__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostAkEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_DestroyedActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Stop Audio",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "DestroyedActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_WorldItem_C:ReceiveBeginPlay'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.18"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_WorldItem_C:ReceiveBeginPlay'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.18"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PerformConstruction",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_WorldItem_C:PerformConstruction'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.25"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_WorldItem_C:PerformConstruction'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.25"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldItem_Artifact_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.4"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Artifact_Shadows_World_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.10"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Artifact_Shadows_World_C:InheritableComponentHandler'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.6"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:ExecuteUbergraph_BP_Artifact_Shadows_World'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldItem_Artifact_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.4"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:PerformConstruction'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.3"
+      },
+      {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:ReceiveBeginPlay'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.2"
+      },
+      {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:Stop Audio'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.1"
+      },
+      {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:ExecuteUbergraph_BP_Artifact_Shadows_World'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ArtifactAkComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AkComponent'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Artifact_Shadows_World": {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:ExecuteUbergraph_BP_Artifact_Shadows_World'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.0"
+      },
+      "Stop Audio": {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:Stop Audio'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.1"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:ReceiveBeginPlay'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.2"
+      },
+      "PerformConstruction": {
+        "ObjectName": "Function'BP_Artifact_Shadows_World_C:PerformConstruction'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Artifact_Shadows_World_C'Default__BP_Artifact_Shadows_World_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.5"
+    }
+  },
+  {
+    "Type": "BP_Artifact_Shadows_World_C",
+    "Name": "Default__BP_Artifact_Shadows_World_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.BP_Artifact_Shadows_World_C'",
+    "Template": {
+      "ObjectName": "BP_WorldItem_Artifact_C'Default__BP_WorldItem_Artifact_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.5"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Artifact_Shadows_World_C:StaticMesh_GEN_VARIABLE'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_WorldItem_C'",
+              "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.39"
+            },
+            "SCSVariableName": "StaticMesh",
+            "AssociatedGuid": "55AD811E-466A5E6C-09850DAB-9AD0D53B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Artifact_Shadows_World_C:VisibilityOverlay_GEN_VARIABLE'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.12"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_WorldItem_C'",
+              "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.39"
+            },
+            "SCSVariableName": "VisibilityOverlay",
+            "AssociatedGuid": "FC93D779-4782CF70-E87312B1-D6094A5D"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Artifact_Shadows_World_C:ArtifactEffect_GEN_VARIABLE'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_WorldItem_Artifact_C'",
+              "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.4"
+            },
+            "SCSVariableName": "ArtifactEffect",
+            "AssociatedGuid": "18762F58-451D2677-8A2DBE8E-D0EA2330"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ArtifactEffect_GEN_VARIABLE",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_WorldItem_Artifact_C:ArtifactEffect_GEN_VARIABLE'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/BP_WorldItem_Artifact.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'NS_ShadowsArtifactWorld'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/VFX/Gameplay/Inventory/Items/Artifacts/FX/NS_ShadowsArtifactWorld.24"
+      },
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Artifact_Shadows_World_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.8"
+      },
+      "VariableGuid": "27B08212-4F468DA5-11AAEAB1-91F22743",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Artifact_Shadows_World_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_WorldItem_C:StaticMesh_GEN_VARIABLE'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.63"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Artifact_01_World'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/SM_Artifact_01_World.2"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "VisibilityOverlay_GEN_VARIABLE",
+    "Outer": "BP_Artifact_Shadows_World_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_WorldItem_C:VisibilityOverlay_GEN_VARIABLE'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/BP_WorldItem.64"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Artifact_01_World'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_01/SM_Artifact_01_World.2"
+      }
+    }
+  }
+]

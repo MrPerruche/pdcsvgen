@@ -1,0 +1,668 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Artifact_01_Rope",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_LMaster_ItemOrCar'",
+        "ObjectPath": "PenDriverPro/Content/BaseArt/LayerMasterMats/M_LMaster_ItemOrCar.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color Darkness",
+            "Association": "LayerParameter",
+            "Index": 0
+          },
+          "ParameterValue": 0.541936,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal Str",
+            "Association": "LayerParameter",
+            "Index": 1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Roughness1",
+            "Association": "LayerParameter",
+            "Index": 0
+          },
+          "ParameterValue": 0.8,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Uniform UV Tile",
+            "Association": "LayerParameter",
+            "Index": 1
+          },
+          "ParameterValue": 90.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color1",
+            "Association": "LayerParameter",
+            "Index": 0
+          },
+          "ParameterValue": {
+            "R": 0.067708,
+            "G": 0.048453,
+            "B": 0.021512,
+            "A": 0.0,
+            "Hex": "493E28"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Normal",
+            "Association": "LayerParameter",
+            "Index": 1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Rope_NDO1_Normal4'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Rope/Rope_NDO1_Normal4.0"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "EnableFP FOV Correction",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "3055DE89-4357279F-DEA9AA94-3FD77593"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Enable Normal Str",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "B6A461EF-42F24425-849C548F-8E9942ED"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Enable Normal Texture",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "4AA842EF-4201CFDA-0CF11BB2-D0E68E46"
+          }
+        ],
+        "MaterialLayersParameters": [
+          {
+            "Value": {
+              "Layers": [
+                {
+                  "ObjectName": "MaterialFunctionMaterialLayer'ML_Generic_SimpleSurface'",
+                  "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Generic/ML_Generic_SimpleSurface.0"
+                },
+                {
+                  "ObjectName": "MaterialFunctionMaterialLayer'ML_Generic_TextureBased'",
+                  "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Generic/ML_Generic_TextureBased.0"
+                }
+              ],
+              "Blends": [
+                {
+                  "ObjectName": "MaterialFunctionMaterialLayerBlend'MLB_NormalOnly'",
+                  "ObjectPath": "PenDriverPro/Content/BaseArt/LayerBlends/MLB_NormalOnly.0"
+                }
+              ],
+              "LayerStates": [
+                true,
+                true
+              ]
+            },
+            "ParameterInfo": {
+              "Name": "Base",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "7B2318FB-4D3A6EAA-C5786393-AD058531"
+          }
+        ]
+      },
+      "CachedLayerParameters": {
+        "RuntimeEntries": {
+          "NameHashes": [
+            20548273163451834,
+            1694830564590550348,
+            2213010414163285491,
+            2213010414163285491,
+            2269004586863418985,
+            2779413640175599833,
+            3406468001621897035,
+            3733899299609256820,
+            3929274268584483569,
+            5646727724577319627,
+            8458233423512671340,
+            10140865929421008903,
+            10140865929421008903,
+            10180614615694396284,
+            10236360066938838641,
+            10850319129657335068,
+            13429154380823107863,
+            13429154380823107863,
+            14786838698692447577,
+            15526727830452353445,
+            15826954365595620876,
+            15900734352621089292,
+            16318905168343666307,
+            16445323672114761476,
+            17613987439944805240,
+            18093738127814569024,
+            18093738127814569024,
+            18326330431078818077,
+            18364774326003578500,
+            18421562501512138142
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Height V Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Normal Str",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Height",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Height",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Color Darkness",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Height Min",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Metalness2",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Vertex Color Gamma Power",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Specular",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Height Max",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Emissive Amount",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Uniform UV Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Uniform UV Tile",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "UV Rotation",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Normal Blend Amount",
+              "Association": "BlendParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Roughness2",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "U Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "U Tile",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "R",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Height U Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "M",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Height2",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Height Blend Add Amount",
+              "Association": "BlendParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Height Normal UV Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Metalness1",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "V Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "V Tile",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Roughness1",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "SSS Diffuse Amount",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Height Blend Mult Amount",
+              "Association": "BlendParameter",
+              "Index": 0
+            }
+          ],
+          "ExpressionGuids": [
+            "0A038251-458504F6-B40E1298-49C84DD1",
+            "01A91955-413939ED-D0229CA9-071E9991",
+            "508CD4B0-499776A9-72C59BAF-D541C771",
+            "964ED6A9-4CDD074C-6CBA4A8E-062D81A9",
+            "ED22E281-48A024B0-791C10A3-A3044814",
+            "90C90820-4D0B341C-5F2B12AE-B306F2F2",
+            "4F8CCDE1-44F367CD-94EFE2A5-D9AD1AA6",
+            "8FC48D09-4AA6ABF1-4556E089-103F38CA",
+            "13AD2289-411A523D-5F45B392-D2C7E5C8",
+            "5A3E8D6C-4FDC7A63-D1D8B8BA-94364AFB",
+            "544FFF87-4C812155-1A5DB286-102DC4B9",
+            "857FC22F-4979511F-525CB98E-647CAD83",
+            "857FC22F-4979511F-525CB98E-647CAD83",
+            "F817E3E7-42E75A1C-CE076E81-8297315C",
+            "00615C05-417A0653-C969ADA3-4181EDF2",
+            "DABC9B2C-483EAEC8-386C128B-419C31F0",
+            "75343ED7-4C911736-F953469A-380BDDC2",
+            "75343ED7-4C911736-F953469A-380BDDC2",
+            "4290751A-47ABCF38-50ABF5B8-B18A504C",
+            "49BE4FE5-442B71EB-59B14689-81287E2C",
+            "A97C5D12-495A9A71-3D73DCB6-F1269857",
+            "299BE6AB-4D9B7490-85C1499A-37615EF2",
+            "9425FB5C-419E34CA-0B1BFF97-BD617909",
+            "3EDB3B8C-489EFDB7-31CFE393-F3FE985D",
+            "FE89C6F8-4705871D-6FF41C83-BDA9E15A",
+            "2CA33C70-48D683B1-2D47E490-8E822D21",
+            "2CA33C70-48D683B1-2D47E490-8E822D21",
+            "D83D9A2B-44061683-9C39B3A6-06820ACD",
+            "36FEF7D7-425E8673-B5E20FBF-87D25856",
+            "4DA582CD-46BC36E4-69A4FBAB-67F44104"
+          ]
+        },
+        "RuntimeEntries[1]": {
+          "NameHashes": [
+            1447629037979046516,
+            1637651631335165206,
+            2236351998331959773,
+            3744315588927428684,
+            6488291658735858358,
+            10975057850833063825,
+            12279385124011487613,
+            16001865301981087660
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Vertex Color Channel Selection",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Channel Selection",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "EmissiveColor",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Height Texture Selector",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Height Map Channel",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Color2",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Color",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Color1",
+              "Association": "LayerParameter",
+              "Index": 0
+            }
+          ],
+          "ExpressionGuids": [
+            "349579B4-40D92828-4D2335B8-E97F7C0C",
+            "860E8A75-44B93624-24C9EE92-FF5C3443",
+            "B6D43A3F-460D3C4A-3F643ABC-071FCD87",
+            "E206D5E0-477DC6CE-34084284-D5C45E3B",
+            "BC5BE103-46D4A036-3C4BA7B2-957A9397",
+            "2C30A08A-4A83AA77-5C435EA7-12D900E4",
+            "50DD0B50-4E1FE454-41406FAE-5738096D",
+            "C7D57936-40407006-9EB115BA-0BC6D55E"
+          ]
+        },
+        "RuntimeEntries[2]": {
+          "NameHashes": [
+            2213010414163285491,
+            3775951208358729996,
+            4093712129551234549,
+            4708953410708818575,
+            9541687566827538945,
+            10434042344535729916,
+            15413773726012302988
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Height",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Emissive",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Diffuse",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Normal",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "Opacity Mask",
+              "Association": "LayerParameter",
+              "Index": 1
+            },
+            {
+              "Name": "HeightMap",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "MRO",
+              "Association": "LayerParameter",
+              "Index": 1
+            }
+          ],
+          "ExpressionGuids": [
+            "A03F9F9D-4EAFC0D7-E13E61A8-584F8716",
+            "DCD26151-4EAE42DA-E0C7248D-4A29A419",
+            "CD10764C-4ED4C089-0F1DA3B3-01E815C2",
+            "5AAC2F53-4031A620-169C8684-0F279589",
+            "097606DD-49CA8200-E45D2090-AFF1B565",
+            "FF81AAD2-4F683864-81C95F88-F7A8EFE1",
+            "B8453246-48E9C033-24F6319A-28E05998"
+          ]
+        },
+        "ScalarValues": [
+          1.0,
+          1.0,
+          0.5,
+          0.5,
+          0.6,
+          0.0,
+          1.0,
+          2.2,
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.5,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.7,
+          0.5,
+          1.0
+        ],
+        "VectorValues": [
+          {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF0000"
+          },
+          {
+            "R": 0.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "00FF00"
+          },
+          {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF0000"
+          },
+          {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF0000"
+          },
+          {
+            "R": 0.461805,
+            "G": 0.461805,
+            "B": 0.461805,
+            "A": 0.0,
+            "Hex": "B5B5B5"
+          },
+          {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          },
+          {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          }
+        ],
+        "TextureValues": [
+          {
+            "ObjectName": "Texture2D'T_SolidColor_White'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/T_SolidColor_White.0"
+          },
+          {
+            "ObjectName": "Texture2D'circlegradient_001'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/circlegradient_001.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_SolidColor_White'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/T_SolidColor_White.0"
+          },
+          {
+            "ObjectName": "Texture2D'normal_Flat'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/normal_Flat.0"
+          },
+          {
+            "ObjectName": "Texture2D'circlegradient_001'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/circlegradient_001.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Noise_Grunge_01_D'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/T_Noise_Grunge_01_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Technical_Default_MRO'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/T_Technical_Default_MRO.0"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'GlyphLines_bigSheet'",
+          "ObjectPath": "PenDriverPro/Content/VFX/Textures/GlyphLines_bigSheet.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Noise_Soft_32bit'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/T_Noise_Soft_32bit.0"
+        },
+        {
+          "ObjectName": "CurveLinearColorAtlas'CA_VFX'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LUT/CA_VFX.0"
+        },
+        {
+          "ObjectName": "VolumeTexture'VT_Voronoi'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Volume/VT_Voronoi.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Generic_SimpleSurface_M'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Generic/T_Generic_SimpleSurface_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Noise_Grunge_01_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/T_Noise_Grunge_01_D.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_SolidColor_White'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/T_SolidColor_White.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Technical_Default_MRO'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/T_Technical_Default_MRO.0"
+        },
+        {
+          "ObjectName": "Texture2D'normal_Flat'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/normal_Flat.0"
+        },
+        {
+          "ObjectName": "Texture2D'circlegradient_001'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/circlegradient_001.0"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

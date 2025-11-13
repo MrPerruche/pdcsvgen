@@ -1,0 +1,703 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ACE_Quirks",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanChangeQuirks_CanAdd",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanChangeQuirks_CanCycle",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_FMod_Remainder",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_FMod_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Amount_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Amount",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGlobalWhiteboard_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Whiteboard'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetTagFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_FMod_Remainder_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_FMod_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_TuningFloatToFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:Tick'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.6"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:Tick'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.6"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEffectDecrease",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEffectDecrease'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.3"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEffectDecrease'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Amount",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEffectIncrease",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEffectIncrease'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.4"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEffectIncrease'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "Amount",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEnd",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEnd'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.5"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnEnd'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.5"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStart",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnStart'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.7"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:OnStart'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.7"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCauseText",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:GetCauseText'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.10"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:GetCauseText'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.10"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Increase",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Desc",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetCauseText_Desc",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetEffectText",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:GetEffectText'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.11"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:GetEffectText'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.11"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Increase",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Desc",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetEffectText_Desc",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "Function",
+    "Name": "CanChangeQuirks",
+    "Outer": "ACE_Quirks_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CanAdd",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CanCycle",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_StatusEffectManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_StatusEffectManager.108"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Get_Quirk_Pick_Tune_Vars_PickChance",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Get_Quirk_Pick_Tune_Vars_PickAmount",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Get_Quirk_Pick_Tune_Vars_CycleChance",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Get_Quirk_Pick_Tune_Vars_CycleCeiling",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Get_Quirk_Pick_Tune_Vars_PickCeiling",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetCarQuirks_CarQuirks",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetCarQuirks_CarQuirks",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'SE_Quirk_MixAndMatch_C'",
+            "ObjectPath": "PenDriverPro/Content/Gameplay/StatusEffects/Quirks/SE_Quirk_MixAndMatch.15"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_Quirks_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.15"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ACE_Quirks_C:ExecuteUbergraph_ACE_Quirks'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.15"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ACE_Quirks_C:CanChangeQuirks'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.8"
+      },
+      {
+        "ObjectName": "Function'ACE_Quirks_C:GetEffectText'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.7"
+      },
+      {
+        "ObjectName": "Function'ACE_Quirks_C:GetCauseText'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.6"
+      },
+      {
+        "ObjectName": "Function'ACE_Quirks_C:OnStart'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.5"
+      },
+      {
+        "ObjectName": "Function'ACE_Quirks_C:OnEnd'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.4"
+      },
+      {
+        "ObjectName": "Function'ACE_Quirks_C:OnEffectIncrease'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.3"
+      },
+      {
+        "ObjectName": "Function'ACE_Quirks_C:OnEffectDecrease'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.2"
+      },
+      {
+        "ObjectName": "Function'ACE_Quirks_C:Tick'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.1"
+      },
+      {
+        "ObjectName": "Function'ACE_Quirks_C:ExecuteUbergraph_ACE_Quirks'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Cooldown",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 20,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TuningFloat'",
+          "ObjectPath": "/Script/PenDriverUtils"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ACE_Quirks": {
+        "ObjectName": "Function'ACE_Quirks_C:ExecuteUbergraph_ACE_Quirks'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.0"
+      },
+      "Tick": {
+        "ObjectName": "Function'ACE_Quirks_C:Tick'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.1"
+      },
+      "OnEffectDecrease": {
+        "ObjectName": "Function'ACE_Quirks_C:OnEffectDecrease'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.2"
+      },
+      "OnEffectIncrease": {
+        "ObjectName": "Function'ACE_Quirks_C:OnEffectIncrease'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.3"
+      },
+      "OnEnd": {
+        "ObjectName": "Function'ACE_Quirks_C:OnEnd'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.4"
+      },
+      "OnStart": {
+        "ObjectName": "Function'ACE_Quirks_C:OnStart'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.5"
+      },
+      "GetCauseText": {
+        "ObjectName": "Function'ACE_Quirks_C:GetCauseText'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.6"
+      },
+      "GetEffectText": {
+        "ObjectName": "Function'ACE_Quirks_C:GetEffectText'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.7"
+      },
+      "CanChangeQuirks": {
+        "ObjectName": "Function'ACE_Quirks_C:CanChangeQuirks'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.8"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_Quirks_C'Default__ACE_Quirks_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.10"
+    }
+  },
+  {
+    "Type": "ACE_Quirks_C",
+    "Name": "Default__ACE_Quirks_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Quirks.ACE_Quirks_C'",
+    "Template": {
+      "ObjectName": "BP_ArtifactCauseEffect_C'Default__BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.16"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Cooldown": {
+        "TuningTag": {
+          "TagName": "WB.Tuning.Artifacts.Effects.Quirks.Cooldown"
+        },
+        "TuningFloat": 0.0
+      },
+      "ShouldTick": true,
+      "CauseDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_quirks_title_cause_down",
+        "SourceString": "Pensive",
+        "LocalizedString": "Pensive"
+      },
+      "CauseUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_quirks_title_cause_up",
+        "SourceString": "Chaotic",
+        "LocalizedString": "Chaotic"
+      },
+      "EffectDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_quirks_title_effect_down",
+        "SourceString": "Swap",
+        "LocalizedString": "Swap"
+      },
+      "EffectUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_quirks_title_effect_up",
+        "SourceString": "Oddity",
+        "LocalizedString": "Oddity"
+      },
+      "CauseDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_quirks_desc_cause_down",
+        "SourceString": "When <name.quirks>Quirks</><img id=\"quirks\"/> are <verb.down>absent</>,",
+        "LocalizedString": "When <name.quirks>Quirks</><img id=\"quirks\"/> are <verb.down>absent</>,"
+      },
+      "CauseIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_quirks_desc_cause_up",
+        "SourceString": "When <name.quirks>Quirks</><img id=\"quirks\"/> are <verb.up>on the car</>,",
+        "LocalizedString": "When <name.quirks>Quirks</><img id=\"quirks\"/> are <verb.up>on the car</>,"
+      },
+      "EffectDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_quirks_desc_effect_down",
+        "SourceString": "a <name.quirks>Quirk</><img id=\"quirks\"/> is <verb.strange>replaced</>",
+        "LocalizedString": "a <name.quirks>Quirk</><img id=\"quirks\"/> is <verb.strange>replaced</>"
+      },
+      "EffectIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_quirks_desc_effect_up",
+        "SourceString": "a <name.quirks>Quirk</><img id=\"quirks\"/> is <verb.up>applied</>",
+        "LocalizedString": "a <name.quirks>Quirk</><img id=\"quirks\"/> is <verb.up>applied</>"
+      },
+      "RichIconName": "quirks"
+    }
+  }
+]

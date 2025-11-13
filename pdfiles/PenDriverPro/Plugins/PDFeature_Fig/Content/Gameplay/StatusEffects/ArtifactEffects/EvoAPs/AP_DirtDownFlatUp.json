@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "ArtifactEvoAsset_C",
+    "Name": "AP_DirtDownFlatUp",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.ArtifactEvoAsset_C'",
+    "Template": {
+      "ObjectName": "ArtifactEvoAsset_C'Default__ArtifactEvoAsset_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.5"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PipCost": 11,
+      "Cause": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarDirtRoad.ACE_CarDirtRoad_C",
+        "SubPathString": ""
+      },
+      "Effect": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Flat.ACE_Flat_C",
+        "SubPathString": ""
+      },
+      "EffectIncreases": true,
+      "Multiplier": 0.01,
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'ArtifactEvoAsset_C'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.4"
+      }
+    }
+  }
+]

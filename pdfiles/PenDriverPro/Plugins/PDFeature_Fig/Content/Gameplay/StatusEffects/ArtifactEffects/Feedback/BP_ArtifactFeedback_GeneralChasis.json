@@ -1,0 +1,580 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ArtifactFeedback_GeneralChasis",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetVectorValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_X",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Y",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakVector_Z",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "PulseActivation",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactFeedback_Base_C:PulseActivation'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactFeedback_Base.2"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactFeedback_Base_C:PulseActivation'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactFeedback_Base.2"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArtifactFeedback_Base_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactFeedback_Base.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_ArtifactFeedback_GeneralChasis_C:Timeline_0_Template'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.15"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ArtifactFeedback_GeneralChasis_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.12"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_ArtifactFeedback_GeneralChasis_C:InheritableComponentHandler'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:ExecuteUbergraph_BP_ArtifactFeedback_GeneralChasis'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArtifactFeedback_Base_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactFeedback_Base.8"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.3"
+      },
+      {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.2"
+      },
+      {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:PulseActivation'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.1"
+      },
+      {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:ExecuteUbergraph_BP_ArtifactFeedback_GeneralChasis'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_primitiveDash",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_teleportPrimitives",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_NewTrack_0_90ED91A04497B397CB8A76A6C0CDD185",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_90ED91A04497B397CB8A76A6C0CDD185",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ArtifactFeedback_GeneralChasis": {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:ExecuteUbergraph_BP_ArtifactFeedback_GeneralChasis'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.0"
+      },
+      "PulseActivation": {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:PulseActivation'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.1"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.2"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function'BP_ArtifactFeedback_GeneralChasis_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ArtifactFeedback_GeneralChasis_C'Default__BP_ArtifactFeedback_GeneralChasis_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.5"
+    }
+  },
+  {
+    "Type": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Name": "Default__BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.BP_ArtifactFeedback_GeneralChasis_C'",
+    "Template": {
+      "ObjectName": "BP_ArtifactFeedback_Base_C'Default__BP_ArtifactFeedback_Base_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactFeedback_Base.9"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "minResetTime": 1.8,
+      "Wwise Event": {
+        "ObjectName": "AkAudioEvent'sfx_ace_artifactFeedback_large'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/WwiseAudio/Events/Props/interactables/sfx_ace_artifactFeedback_large.0"
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'CurveFloat'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ArtifactFeedback_GeneralChasis_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.8"
+      },
+      "VariableGuid": "D75ACA18-4D3AEB05-BAE4D49A-60DA5032",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ArtifactFeedback_GeneralChasis_C:SM_primitiveDash_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.13"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ArtifactFeedback_Base_C",
+      "VariableGuid": "2CA2DD78-4C35CD40-7E227A96-0B87929A",
+      "InternalVariableName": "SM_primitiveDash"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ArtifactFeedback_GeneralChasis_C:SM_teleportPrimitives_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.14"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ArtifactFeedback_Base_C",
+      "VariableGuid": "4464CD65-4C3B3AE3-14F66F88-94763D97",
+      "InternalVariableName": "SM_teleportPrimitives"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ArtifactFeedback_GeneralChasis_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ArtifactFeedback_GeneralChasis_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ArtifactFeedback_GeneralChasis_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ArtifactFeedback_GeneralChasis_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ArtifactFeedback_GeneralChasis_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_primitiveDash_GEN_VARIABLE",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_primitiveDash'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/VFX/Meshes/SM_primitiveDash.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ArtifactChassisFeedback_Interior'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/VFX/Gameplay/Inventory/Items/Artifacts/Feedback/MI_ArtifactChassisFeedback_Interior.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "CastShadow": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBodySmall",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "VehicleInterior",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "TriggerType",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "CarWheelTrace",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_teleportPrimitives_GEN_VARIABLE",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_teleportPrimitives'",
+        "ObjectPath": "PenDriverPro/Content/VFX/Gameplay/CarReset/SM_teleportPrimitives.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_ArtifactChassisFeedback'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/VFX/Gameplay/Inventory/Items/Artifacts/Feedback/M_ArtifactChassisFeedback.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "CastShadow": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBodySmall",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "VehicleInterior",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "TriggerType",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "CarWheelTrace",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Outer": "BP_ArtifactFeedback_GeneralChasis_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TimelineLength": 1.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_ArtifactFeedback_GeneralChasis_C:CurveFloat_0'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/Feedback/BP_ArtifactFeedback_GeneralChasis.6"
+          },
+          "PropertyName": "Timeline_0_NewTrack_0_90ED91A04497B397CB8A76A6C0CDD185",
+          "TrackName": "NewTrack_0",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "90ED91A0-4497B397-CB8A76A6-C0CDD185",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_90ED91A04497B397CB8A76A6C0CDD185",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  }
+]

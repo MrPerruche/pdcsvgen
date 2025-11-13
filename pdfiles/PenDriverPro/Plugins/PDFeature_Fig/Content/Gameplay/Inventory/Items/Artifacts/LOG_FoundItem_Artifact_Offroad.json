@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "LogBookDataGeneric",
+    "Name": "LOG_FoundItem_Artifact_Offroad",
+    "Class": "UScriptClass'LogBookDataGeneric'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Title": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_item_offroad_title",
+        "SourceString": "Artifact of Vales",
+        "LocalizedString": "Artifact of Vales"
+      },
+      "Description": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_item_offroad_desc",
+        "SourceString": "This artifact is of the hills. It carries with it a barely tangible aura of loneliness and yearning, as if it longs to be returned to the same wilds in which it was found.",
+        "LocalizedString": "This artifact is of the hills. It carries with it a barely tangible aura of loneliness and yearning, as if it longs to be returned to the same wilds in which it was found."
+      },
+      "LogCategory": {
+        "TagName": "UI.Categories.Logbook.Item"
+      },
+      "Icon": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_ArtifactOffroad'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/UI/Icons/Item_Icons/Artifacts/T_Icon_ArtifactOffroad.0"
+        }
+      },
+      "AttributeObjects": [
+        {
+          "Key": {
+            "TagName": "UI.Categories.LogbookAttributes.BiomePresence"
+          },
+          "Value": {
+            "AssetPathName": "/PDFeature_Fig/Systems/Biomes/BiomeTagIdentifier_ForestFig_Offroad.BiomeTagIdentifier_ForestFig_Offroad",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ImageDelegates": {
+        "ObjectName": "LogBookDataImageDelegates'LOG_FoundItem_Artifact_Offroad:ImageDelegates'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/LOG_FoundItem_Artifact_Offroad.1"
+      }
+    }
+  },
+  {
+    "Type": "LogBookDataImageDelegates",
+    "Name": "ImageDelegates",
+    "Outer": "LOG_FoundItem_Artifact_Offroad",
+    "Class": "UScriptClass'LogBookDataImageDelegates'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

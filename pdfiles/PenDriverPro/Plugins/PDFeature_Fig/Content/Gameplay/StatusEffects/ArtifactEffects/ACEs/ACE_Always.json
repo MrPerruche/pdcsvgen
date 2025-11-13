@@ -1,0 +1,153 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ACE_Always",
+    "Outer": "ACE_Always_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Outer": "ACE_Always_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:Tick'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.6"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ArtifactCauseEffect_C:Tick'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.6"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_Always_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.15"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'ACE_Always_C:ExecuteUbergraph_ACE_Always'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Always.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.15"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ACE_Always_C:Tick'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Always.1"
+      },
+      {
+        "ObjectName": "Function'ACE_Always_C:ExecuteUbergraph_ACE_Always'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Always.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ACE_Always": {
+        "ObjectName": "Function'ACE_Always_C:ExecuteUbergraph_ACE_Always'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Always.0"
+      },
+      "Tick": {
+        "ObjectName": "Function'ACE_Always_C:Tick'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Always.1"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_Always_C'Default__ACE_Always_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Always.3"
+    }
+  },
+  {
+    "Type": "ACE_Always_C",
+    "Name": "Default__ACE_Always_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Always.ACE_Always_C'",
+    "Template": {
+      "ObjectName": "BP_ArtifactCauseEffect_C'Default__BP_ArtifactCauseEffect_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/BP_ArtifactCauseEffect.16"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ShouldTick": true,
+      "CauseDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_always_title_cause",
+        "SourceString": "Perpetual",
+        "LocalizedString": "Perpetual"
+      },
+      "CauseUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_always_title_cause",
+        "SourceString": "Perpetual",
+        "LocalizedString": "Perpetual"
+      },
+      "CauseDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_always_desc_cause",
+        "SourceString": "<name.always>Over time</><img id=\"always\"/>,",
+        "LocalizedString": "<name.always>Over time</><img id=\"always\"/>,"
+      },
+      "CauseIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_always_desc_cause",
+        "SourceString": "<name.always>Over time</><img id=\"always\"/>,",
+        "LocalizedString": "<name.always>Over time</><img id=\"always\"/>,"
+      },
+      "RichIconName": "always"
+    }
+  }
+]

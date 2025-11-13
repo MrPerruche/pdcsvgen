@@ -1,0 +1,1729 @@
+[
+  {
+    "Type": "DecisionTree",
+    "Name": "DTR_ArtifactEffects_Shadows",
+    "Class": "UScriptClass'DecisionTree'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Decisions": [
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_0'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.1"
+          },
+          "Probability": 80.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_1'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.2"
+          },
+          "Probability": 120.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_3'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.20"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_5'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.38"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_6'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.45"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_7'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.46"
+          },
+          "Probability": 60.0,
+          "BranchConditions": {
+            "Conditions": [
+              {
+                "ObjectName": "WC_Exists'DTR_ArtifactEffects_Shadows:WC_Exists_0'",
+                "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.48"
+              }
+            ]
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_9'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.47"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_10'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.3"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_11'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.4"
+          },
+          "Probability": 80.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_12'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.5"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_13'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.6"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_14'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.7"
+          },
+          "Probability": 120.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_15'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.8"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_17'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.9"
+          },
+          "Probability": 70.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_18'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.10"
+          },
+          "Probability": 50.0,
+          "BranchConditions": {
+            "Conditions": [
+              {
+                "ObjectName": "WC_Exists'DTR_ArtifactEffects_Shadows:WC_Exists_4'",
+                "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.51"
+              }
+            ]
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_20'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.13"
+          },
+          "Probability": 60.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_23'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.14"
+          },
+          "Probability": 70.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_24'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.15"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": [
+              {
+                "ObjectName": "WC_Exists'DTR_ArtifactEffects_Shadows:WC_Exists_2'",
+                "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.49"
+              }
+            ]
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_25'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.16"
+          },
+          "Probability": 60.0,
+          "BranchConditions": {
+            "Conditions": [
+              {
+                "ObjectName": "WC_Exists'DTR_ArtifactEffects_Shadows:WC_Exists_3'",
+                "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.50"
+              }
+            ]
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_26'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.17"
+          },
+          "Probability": 120.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_19'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.11"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_27'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.18"
+          },
+          "Probability": 70.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_29'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.19"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_30'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.21"
+          },
+          "Probability": 80.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_32'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.22"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_33'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.23"
+          },
+          "Probability": 110.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_34'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.24"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_35'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.25"
+          },
+          "Probability": 80.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_36'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.26"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_37'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.27"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_38'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.28"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_39'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.29"
+          },
+          "Probability": 50.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_40'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.30"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_41'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.31"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_42'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.32"
+          },
+          "Probability": 80.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_43'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.33"
+          },
+          "Probability": 120.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_44'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.34"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_46'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.35"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_47'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.36"
+          },
+          "Probability": 70.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_48'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.37"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_2'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.12"
+          },
+          "Probability": 70.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_51'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.39"
+          },
+          "Probability": 80.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_52'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.40"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_53'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.41"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_54'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.42"
+          },
+          "Probability": 70.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_55'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.43"
+          },
+          "Probability": 90.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        },
+        {
+          "Label": "None",
+          "NodeMode": "ENodeMode::OBJECT",
+          "Count": 1,
+          "CountMin": 1,
+          "CountMax": 1,
+          "bRandomCountRange": false,
+          "BranchToTake": null,
+          "Object": {
+            "ObjectName": "DO_ArtifactPairing_C'DTR_ArtifactEffects_Shadows:DO_ArtifactPairing_C_58'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/DTR_ArtifactEffects_Shadows.44"
+          },
+          "Probability": 100.0,
+          "BranchConditions": {
+            "Conditions": []
+          },
+          "ProbabilityExpression": null
+        }
+      ],
+      "DecisionClass": {
+        "ObjectName": "BlueprintGeneratedClass'DO_ArtifactPairing_C'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.3"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_0",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_BatteryDownPartsDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_BatteryDownPartsDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_1",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_FuelDownLightsUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_FuelDownLightsUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_10",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HealthUpPartsDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HealthUpPartsDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_11",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HonkUpGrabDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HonkUpGrabDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_12",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HonkUpHealthDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HonkUpHealthDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_13",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsDownLightning'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsDownLightning.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_14",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsDownNoticeUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsDownNoticeUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_15",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsUpHealthDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsUpHealthDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_17",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_NatureDownPlayerDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_NatureDownPlayerDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_18",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_PartsDownQuirksUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_PartsDownQuirksUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_19",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HeadingDownLightsUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HeadingDownLightsUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_2",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_RoadDownFuelDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_RoadDownFuelDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_20",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_PartsUpEvoDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_PartsUpEvoDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_23",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_PlayerUpPartsDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_PlayerUpPartsDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_24",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_QuirksUpEvoDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_QuirksUpEvoDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_25",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_QuirksDownGrabDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_QuirksDownGrabDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_26",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_RoadUpLightsDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_RoadUpLightsDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_27",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_JumpHonkUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_JumpHonkUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_29",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HeadingDownBatteryDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HeadingDownBatteryDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_3",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_PartsUpBatteryDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_PartsUpBatteryDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_30",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_FlatUpFuelUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_FlatUpFuelUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_32",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsUpFlatUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsUpFlatUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_33",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsDownHonkUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsDownHonkUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_34",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsUpTrunkUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsUpTrunkUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_35",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsUpOffroadUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsUpOffroadUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_36",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsDownSpeedUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsDownSpeedUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_37",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_ImpactItemsDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_ImpactItemsDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_38",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_JumpDoorFROpen'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_JumpDoorFROpen.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_39",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_DrivingDownPartsDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_DrivingDownPartsDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_40",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_DrivingDownLightsDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_DrivingDownLightsDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_41",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_DrivingUpBatteryDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_DrivingUpBatteryDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_42",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_DoorFLUpLightsDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_DoorFLUpLightsDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_43",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HoodUpBatteryUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HoodUpBatteryUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_44",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_TrunkUpLightning'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_TrunkUpLightning.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_46",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_LightsDownRadioDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_LightsDownRadioDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_47",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HazardGrabPlayerUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HazardGrabPlayerUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_48",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HeadingUpRadioUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HeadingUpRadioUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_5",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_BatteryUpLightning'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_BatteryUpLightning.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_51",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_BatteryUpRoadUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_BatteryUpRoadUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_52",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HealthDownRoadDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HealthDownRoadDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_53",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_BatteryUpHealthUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_BatteryUpHealthUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_54",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HazardReleaseBatteryUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HazardReleaseBatteryUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_55",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_EvoUpDoorFLDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_EvoUpDoorFLDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_58",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HealthDownFuelUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HealthDownFuelUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_6",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HazardGrabHonkUp'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HazardGrabHonkUp.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_7",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HazardGrabQuirksDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HazardGrabQuirksDown.0"
+      }
+    }
+  },
+  {
+    "Type": "DO_ArtifactPairing_C",
+    "Name": "DO_ArtifactPairing_C_9",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.DO_ArtifactPairing_C'",
+    "Template": {
+      "ObjectName": "DO_ArtifactPairing_C'Default__DO_ArtifactPairing_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/DecisionUtilities/DO_ArtifactPairing.4"
+    },
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArtifactPairing": {
+        "ObjectName": "ArtifactEvoAsset_C'AP_HealthUpBatteryDown'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/EvoAPs/AP_HealthUpBatteryDown.0"
+      }
+    }
+  },
+  {
+    "Type": "WC_Exists",
+    "Name": "WC_Exists_0",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "UScriptClass'WC_Exists'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Key": {
+        "TagName": "WB.Statistics.Quirks.QuirksCured"
+      }
+    }
+  },
+  {
+    "Type": "WC_Exists",
+    "Name": "WC_Exists_2",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "UScriptClass'WC_Exists'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Key": {
+        "TagName": "WB.Statistics.Quirks.QuirksCured"
+      }
+    }
+  },
+  {
+    "Type": "WC_Exists",
+    "Name": "WC_Exists_3",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "UScriptClass'WC_Exists'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Key": {
+        "TagName": "WB.Statistics.Quirks.QuirksCured"
+      }
+    }
+  },
+  {
+    "Type": "WC_Exists",
+    "Name": "WC_Exists_4",
+    "Outer": "DTR_ArtifactEffects_Shadows",
+    "Class": "UScriptClass'WC_Exists'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Key": {
+        "TagName": "WB.Statistics.Quirks.QuirksCured"
+      }
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_CarRoad_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_CarSurfaceState_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarSurfaceState.12"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_CarSurfaceState_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarSurfaceState.12"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_CarRoad_C'Default__ACE_CarRoad_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarRoad.1"
+    }
+  },
+  {
+    "Type": "ACE_CarRoad_C",
+    "Name": "Default__ACE_CarRoad_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarRoad.ACE_CarRoad_C'",
+    "Template": {
+      "ObjectName": "ACE_CarSurfaceState_C'Default__ACE_CarSurfaceState_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarSurfaceState.13"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GraphImproveParam": "Road_Artifact",
+      "CauseDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_road_title_cause_down",
+        "SourceString": "Unpaved",
+        "LocalizedString": "Unpaved"
+      },
+      "CauseUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_road_title_cause_up",
+        "SourceString": "Paved",
+        "LocalizedString": "Paved"
+      },
+      "EffectDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_road_title_effect_down",
+        "SourceString": "Drift",
+        "LocalizedString": "Drift"
+      },
+      "EffectUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_road_title_effect_up",
+        "SourceString": "Grip",
+        "LocalizedString": "Grip"
+      },
+      "CauseDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_road_desc_cause_down",
+        "SourceString": "While car <verb.down>is not on</> <name.surface.road>roads</><img id=\"surface.road\"/>,",
+        "LocalizedString": "While car <verb.down>is not on</> <name.surface.road>roads</><img id=\"surface.road\"/>,"
+      },
+      "CauseIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_road_desc_cause_up",
+        "SourceString": "While car <verb.up>is on</> <name.surface.road>roads</><img id=\"surface.road\"/>,",
+        "LocalizedString": "While car <verb.up>is on</> <name.surface.road>roads</><img id=\"surface.road\"/>,"
+      },
+      "EffectDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_road_desc_effect_down",
+        "SourceString": "<name.surface.road>handling on roads</><img id=\"surface.road\"/> <verb.down>degrades</>",
+        "LocalizedString": "<name.surface.road>handling on roads</><img id=\"surface.road\"/> <verb.down>degrades</>"
+      },
+      "EffectIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_road_desc_effect_up",
+        "SourceString": "<name.surface.road>handling on roads</><img id=\"surface.road\"/> <verb.up>improves</>",
+        "LocalizedString": "<name.surface.road>handling on roads</><img id=\"surface.road\"/> <verb.up>improves</>"
+      },
+      "RichIconName": "surface.road"
+    }
+  }
+]

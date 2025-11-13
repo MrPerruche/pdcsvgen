@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "Function",
+    "Name": "DoorCanBeToggled",
+    "Outer": "ACE_Door_Trunk_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'ACE_Door_C:DoorCanBeToggled'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.9"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'ACE_Door_C:DoorCanBeToggled'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.9"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "SafeToChange",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_InventoryManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_InventoryManager.187"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPlayerMenuOpen_IsOpen",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_IsPlayerMenuOpen_At_Page",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_Door_Trunk_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.10"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.10"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ACE_Door_Trunk_C:DoorCanBeToggled'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_Trunk.0"
+      }
+    ],
+    "FuncMap": {
+      "DoorCanBeToggled": {
+        "ObjectName": "Function'ACE_Door_Trunk_C:DoorCanBeToggled'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_Trunk.0"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_Door_Trunk_C'Default__ACE_Door_Trunk_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_Trunk.2"
+    }
+  },
+  {
+    "Type": "ACE_Door_Trunk_C",
+    "Name": "Default__ACE_Door_Trunk_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_Trunk.ACE_Door_Trunk_C'",
+    "Template": {
+      "ObjectName": "ACE_Door_C'Default__ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.11"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TargetDoor": "EOpenableDoors::NewEnumerator5",
+      "CauseDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_trunk_title_cause_down",
+        "SourceString": "Latched",
+        "LocalizedString": "Latched"
+      },
+      "CauseUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_trunk_title_cause_up",
+        "SourceString": "Exposed",
+        "LocalizedString": "Exposed"
+      },
+      "EffectDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_trunk_title_effect_down",
+        "SourceString": "Pack",
+        "LocalizedString": "Pack"
+      },
+      "EffectUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_trunk_title_effect_up",
+        "SourceString": "Lift",
+        "LocalizedString": "Lift"
+      },
+      "CauseDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_trunk_desc_cause_down",
+        "SourceString": "When the <name.door.trunk>trunk</><img id=\"door.trunk\"/> is <verb.down>closed</>,",
+        "LocalizedString": "When the <name.door.trunk>trunk</><img id=\"door.trunk\"/> is <verb.down>closed</>,"
+      },
+      "CauseIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_trunk_desc_cause_up",
+        "SourceString": "When the <name.door.trunk>trunk</><img id=\"door.trunk\"/> is <verb.up>opened</>,",
+        "LocalizedString": "When the <name.door.trunk>trunk</><img id=\"door.trunk\"/> is <verb.up>opened</>,"
+      },
+      "EffectDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_trunk_desc_effect_down",
+        "SourceString": "the <name.door.trunk>trunk</><img id=\"door.trunk\"/> <verb.down>closes</>",
+        "LocalizedString": "the <name.door.trunk>trunk</><img id=\"door.trunk\"/> <verb.down>closes</>"
+      },
+      "EffectIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_trunk_desc_effect_up",
+        "SourceString": "the <name.door.trunk>trunk</><img id=\"door.trunk\"/> <verb.up>opens</>",
+        "LocalizedString": "the <name.door.trunk>trunk</><img id=\"door.trunk\"/> <verb.up>opens</>"
+      },
+      "RichIconName": "door.trunk"
+    }
+  }
+]

@@ -1,0 +1,879 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "SM_Artifact_03_World",
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -0.24544999,
+                "Y": -20.91427,
+                "Z": 7.836809
+              },
+              {
+                "X": -15.47493,
+                "Y": -5.3047657,
+                "Z": -17.744204
+              },
+              {
+                "X": -15.170945,
+                "Y": -6.7227507,
+                "Z": -16.927702
+              },
+              {
+                "X": 14.183032,
+                "Y": -14.404818,
+                "Z": -5.626138
+              },
+              {
+                "X": -0.8159795,
+                "Y": -13.526138,
+                "Z": 9.613165
+              },
+              {
+                "X": -16.23429,
+                "Y": -13.742853,
+                "Z": -8.32114
+              },
+              {
+                "X": 8.530752,
+                "Y": -18.435715,
+                "Z": -6.1521893
+              },
+              {
+                "X": -15.016012,
+                "Y": -9.097275,
+                "Z": 2.5937514
+              }
+            ],
+            "IndexData": [
+              5,
+              0,
+              7,
+              0,
+              3,
+              4,
+              3,
+              1,
+              4,
+              1,
+              2,
+              5,
+              0,
+              5,
+              6,
+              2,
+              1,
+              6,
+              1,
+              3,
+              6,
+              3,
+              0,
+              6,
+              5,
+              2,
+              6,
+              0,
+              4,
+              7,
+              4,
+              1,
+              7,
+              1,
+              5,
+              7
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -16.23429,
+                "Y": -20.91427,
+                "Z": -17.744204
+              },
+              "Max": {
+                "X": 14.183032,
+                "Y": -5.3047657,
+                "Z": 9.613165
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          },
+          {
+            "VertexData": [
+              {
+                "X": -8.881582,
+                "Y": 12.55713,
+                "Z": 16.013094
+              },
+              {
+                "X": -1.0284181,
+                "Y": 12.279773,
+                "Z": -11.083221
+              },
+              {
+                "X": -0.8718071,
+                "Y": 13.032824,
+                "Z": -9.795581
+              },
+              {
+                "X": 20.579868,
+                "Y": 7.244083,
+                "Z": 2.0262444
+              },
+              {
+                "X": -13.876056,
+                "Y": 5.8190603,
+                "Z": 4.7105794
+              },
+              {
+                "X": -7.0006905,
+                "Y": 17.062279,
+                "Z": -1.0297513
+              },
+              {
+                "X": -23.339844,
+                "Y": 10.675426,
+                "Z": -0.5465152
+              },
+              {
+                "X": 16.690643,
+                "Y": 13.557143,
+                "Z": -0.36833882
+              }
+            ],
+            "IndexData": [
+              5,
+              0,
+              7,
+              3,
+              0,
+              4,
+              1,
+              3,
+              4,
+              2,
+              1,
+              5,
+              0,
+              5,
+              6,
+              4,
+              0,
+              6,
+              1,
+              4,
+              6,
+              5,
+              1,
+              6,
+              1,
+              2,
+              7,
+              3,
+              1,
+              7,
+              0,
+              3,
+              7,
+              2,
+              5,
+              7
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -23.339844,
+                "Y": 5.8190603,
+                "Z": -11.083221
+              },
+              "Max": {
+                "X": 20.579868,
+                "Y": 17.062279,
+                "Z": 16.013094
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          },
+          {
+            "VertexData": [
+              {
+                "X": -10.551743,
+                "Y": 3.9790454,
+                "Z": 8.809474
+              },
+              {
+                "X": 15.742827,
+                "Y": -7.5063524,
+                "Z": -7.4003477
+              },
+              {
+                "X": 15.855686,
+                "Y": -8.047812,
+                "Z": -7.62369
+              },
+              {
+                "X": -5.456461,
+                "Y": 4.4296007,
+                "Z": -19.712023
+              },
+              {
+                "X": -14.605109,
+                "Y": -8.082607,
+                "Z": 2.4843142
+              },
+              {
+                "X": 9.237405,
+                "Y": 2.6340866,
+                "Z": 11.341214
+              },
+              {
+                "X": -1.0472902,
+                "Y": -7.091401,
+                "Z": 19.088896
+              },
+              {
+                "X": -1.0304356,
+                "Y": 12.280172,
+                "Z": -11.077441
+              }
+            ],
+            "IndexData": [
+              0,
+              5,
+              7,
+              0,
+              3,
+              4,
+              3,
+              2,
+              4,
+              2,
+              1,
+              5,
+              5,
+              0,
+              6,
+              0,
+              4,
+              6,
+              4,
+              2,
+              6,
+              2,
+              5,
+              6,
+              1,
+              2,
+              7,
+              2,
+              3,
+              7,
+              3,
+              0,
+              7,
+              5,
+              1,
+              7
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -14.605109,
+                "Y": -8.082607,
+                "Z": -19.712023
+              },
+              "Max": {
+                "X": 15.855686,
+                "Y": 12.280172,
+                "Z": 19.088896
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MainCar",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CarAttachment",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "ScanTrace",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "WheelTraceObject",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AnomalyCarAttachment",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SpawnTrace",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "40937E1E465B6F9B824D80A8C0D6BAC5",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 232178,
+        "SizeOnDisk": 232178,
+        "OffsetInFile": "0x14A55B"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_6",
+    "Outer": "SM_Artifact_03_World",
+    "Class": "UScriptClass'NavCollision'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1737,
+        "SizeOnDisk": 1737,
+        "OffsetInFile": "0x183095"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Artifact_03_World",
+    "Class": "UScriptClass'StaticMesh'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'M_artifactCurrentsEmissive'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/M_artifactCurrentsEmissive.0"
+          },
+          "MaterialSlotName": "Emissive",
+          "ImportedMaterialSlotName": "Emissive",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 36.222584,
+            "LocalUVDensities[1]": 32.678917,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Artifact_03_Metal_01'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/MI_Artifact_03_Metal_01.0"
+          },
+          "MaterialSlotName": "Metal",
+          "ImportedMaterialSlotName": "Metal",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 78.98936,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Artifact_03_Rope'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/MI_Artifact_03_Rope.0"
+          },
+          "MaterialSlotName": "Twine",
+          "ImportedMaterialSlotName": "Twine",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 159.09982,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Artifact_03_Branch'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/MI_Artifact_03_Branch.0"
+          },
+          "MaterialSlotName": "Branch",
+          "ImportedMaterialSlotName": "Branch",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 31.572214,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Artifact_03_Metal_02'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/MI_Artifact_03_Metal_02.0"
+          },
+          "MaterialSlotName": "Metal_2",
+          "ImportedMaterialSlotName": "Metal_2",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 69.93666,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 32.678917,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "bAllowCPUAccess": true,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -1.3745842,
+          "Y": -3.6255016,
+          "Z": -0.4601555
+        },
+        "BoxExtent": {
+          "X": 22.02399,
+          "Y": 20.134249,
+          "Z": 19.62429
+        },
+        "SphereRadius": 25.821325
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Artifact_03_World:BodySetup_0'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/SM_Artifact_03_World.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Artifact_03_World:NavCollision_6'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/SM_Artifact_03_World.1"
+    },
+    "LightingGuid": "38FE4CDD-47A92610-AC0AE4AE-DFBDC0D9",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 320,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 189,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 960,
+              "NumTriangles": 2392,
+              "MinVertexIndex": 190,
+              "MaxVertexIndex": 1867,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 8136,
+              "NumTriangles": 2727,
+              "MinVertexIndex": 1868,
+              "MaxVertexIndex": 3616,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 16317,
+              "NumTriangles": 1608,
+              "MinVertexIndex": 3617,
+              "MaxVertexIndex": 4864,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 21141,
+              "NumTriangles": 1394,
+              "MinVertexIndex": 4865,
+              "MaxVertexIndex": 5852,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 5853
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 5853,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 160,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 109,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 480,
+              "NumTriangles": 754,
+              "MinVertexIndex": 110,
+              "MaxVertexIndex": 782,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 2742,
+              "NumTriangles": 688,
+              "MinVertexIndex": 783,
+              "MaxVertexIndex": 1320,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 4806,
+              "NumTriangles": 1492,
+              "MinVertexIndex": 1321,
+              "MaxVertexIndex": 2510,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 9282,
+              "NumTriangles": 1126,
+              "MinVertexIndex": 2511,
+              "MaxVertexIndex": 3328,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.72503316,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 3329
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 3329,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 88,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 71,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 264,
+              "NumTriangles": 344,
+              "MinVertexIndex": 72,
+              "MaxVertexIndex": 440,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 1296,
+              "NumTriangles": 313,
+              "MinVertexIndex": 441,
+              "MaxVertexIndex": 709,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 2235,
+              "NumTriangles": 708,
+              "MinVertexIndex": 710,
+              "MaxVertexIndex": 1378,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 4359,
+              "NumTriangles": 658,
+              "MinVertexIndex": 1379,
+              "MaxVertexIndex": 1890,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 2.3000886,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1891
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 1891,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 72,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 63,
+              "bEnableCollision": true,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 216,
+              "NumTriangles": 172,
+              "MinVertexIndex": 64,
+              "MaxVertexIndex": 288,
+              "bEnableCollision": true,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 732,
+              "NumTriangles": 137,
+              "MinVertexIndex": 289,
+              "MaxVertexIndex": 425,
+              "bEnableCollision": true,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 1143,
+              "NumTriangles": 300,
+              "MinVertexIndex": 426,
+              "MaxVertexIndex": 750,
+              "bEnableCollision": true,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 2043,
+              "NumTriangles": 374,
+              "MinVertexIndex": 751,
+              "MaxVertexIndex": 1074,
+              "bEnableCollision": true,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 5.3109484,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1075
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 1075,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -1.3745842,
+          "Y": -3.6255016,
+          "Z": -0.4601555
+        },
+        "BoxExtent": {
+          "X": 22.02399,
+          "Y": 20.134249,
+          "Z": 19.62429
+        },
+        "SphereRadius": 25.821325
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.2,
+        0.06,
+        0.03,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

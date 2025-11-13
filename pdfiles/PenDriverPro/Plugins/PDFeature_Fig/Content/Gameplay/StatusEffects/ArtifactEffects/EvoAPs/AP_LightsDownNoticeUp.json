@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "ArtifactEvoAsset_C",
+    "Name": "AP_LightsDownNoticeUp",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.ArtifactEvoAsset_C'",
+    "Template": {
+      "ObjectName": "ArtifactEvoAsset_C'Default__ArtifactEvoAsset_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.5"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Cause": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Headlights.ACE_Headlights_C",
+        "SubPathString": ""
+      },
+      "Effect": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_HazardNotice.ACE_HazardNotice_C",
+        "SubPathString": ""
+      },
+      "EffectIncreases": true,
+      "Multiplier": 0.1,
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'ArtifactEvoAsset_C'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.4"
+      }
+    }
+  }
+]

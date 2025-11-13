@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_CarDirtRoad_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_CarSurfaceState_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarSurfaceState.12"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_CarSurfaceState_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarSurfaceState.12"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_CarDirtRoad_C'Default__ACE_CarDirtRoad_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarDirtRoad.1"
+    }
+  },
+  {
+    "Type": "ACE_CarDirtRoad_C",
+    "Name": "Default__ACE_CarDirtRoad_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarDirtRoad.ACE_CarDirtRoad_C'",
+    "Template": {
+      "ObjectName": "ACE_CarSurfaceState_C'Default__ACE_CarSurfaceState_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/SurfaceConditions/ACE_CarSurfaceState.13"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GraphSurfaceParam": "DirtRoad",
+      "GraphImproveParam": "DirtRoad_Artifact",
+      "CauseDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_dirtroad_title_cause_down",
+        "SourceString": "Uncharted",
+        "LocalizedString": "Uncharted"
+      },
+      "CauseUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_dirtroad_title_cause_up",
+        "SourceString": "Rough",
+        "LocalizedString": "Rough"
+      },
+      "EffectDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_dirtroad_title_effect_down",
+        "SourceString": "Slide",
+        "LocalizedString": "Slide"
+      },
+      "EffectUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_dirtroad_title_effect_up",
+        "SourceString": "Trail",
+        "LocalizedString": "Trail"
+      },
+      "CauseDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_dirtroad_desc_cause_down",
+        "SourceString": "While car <verb.down>is not on</> <name.surface.dirt>dirt roads</><img id=\"surface.dirt\"/>,",
+        "LocalizedString": "While car <verb.down>is not on</> <name.surface.dirt>dirt roads</><img id=\"surface.dirt\"/>,"
+      },
+      "CauseIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_dirtroad_desc_cause_up",
+        "SourceString": "While car <verb.up>is on</> <name.surface.dirt>dirt roads</><img id=\"surface.dirt\"/>,",
+        "LocalizedString": "While car <verb.up>is on</> <name.surface.dirt>dirt roads</><img id=\"surface.dirt\"/>,"
+      },
+      "EffectDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_dirtroad_desc_effect_down",
+        "SourceString": "<name.surface.dirt>handling on dirt roads</><img id=\"surface.dirt\"/> <verb.down>degrades</>",
+        "LocalizedString": "<name.surface.dirt>handling on dirt roads</><img id=\"surface.dirt\"/> <verb.down>degrades</>"
+      },
+      "EffectIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_dirtroad_desc_effect_up",
+        "SourceString": "<name.surface.dirt>handling on dirt roads</><img id=\"surface.dirt\"/> <verb.up>improves</>",
+        "LocalizedString": "<name.surface.dirt>handling on dirt roads</><img id=\"surface.dirt\"/> <verb.up>improves</>"
+      },
+      "RichIconName": "surface.dirt"
+    }
+  }
+]

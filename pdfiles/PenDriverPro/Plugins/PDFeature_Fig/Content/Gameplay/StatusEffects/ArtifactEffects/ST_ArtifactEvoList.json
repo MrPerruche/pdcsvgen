@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "ST_ArtifactEvoList",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Guid": "193C40E3-4DEB5397-7F1B40A9-AD184127"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "EvoPairingAssets_5_F11D54FB4B9BC5CFE0BD8FAFCE9C4DE4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "EvoPairingAssets_5_F11D54FB4B9BC5CFE0BD8FAFCE9C4DE4",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'ArtifactEvoAsset_C'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.4"
+          }
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "EvoPairingAssets_5_F11D54FB4B9BC5CFE0BD8FAFCE9C4DE4": []
+    }
+  }
+]

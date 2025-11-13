@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Artifact_02_Emissive_Red",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Master_Emissive_Complex'",
+        "ObjectPath": "PenDriverPro/Content/BaseArt/MasterMaterials/M_Master_Emissive_Complex.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Final Brightness Scale 1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "2E2F9CBE-4D6BC141-DB0DDFAD-8607D813"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Final Brightness Scale 2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "F45DC9E8-4FECBDDE-6FBF03BC-22FB13EC"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pulse Strip Speed",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.075,
+          "ExpressionGUID": "2607CEBD-4E7BDC84-F837BF89-22F52318"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color 1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.614583,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "CE0000"
+          },
+          "ExpressionGUID": "3AA275C3-4B80E439-37A51189-F5EACD0B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pulse Texture Channel Selector",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "AE7934F9-46329AE5-6F5F1280-42CA9376"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "EnableFP FOV Correction",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "1F5D9800-4913DF9E-E97B3483-F878156B"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Enable Pulsing",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "6499FB8C-4B1D05CC-2F7B659F-6DA080EE"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'Concrete_02_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/Concrete_02_D.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_PulseStrip_Generic_01'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/PulseStrip/T_PulseStrip_Generic_01.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_SolidColor_White'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/T_SolidColor_White.0"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

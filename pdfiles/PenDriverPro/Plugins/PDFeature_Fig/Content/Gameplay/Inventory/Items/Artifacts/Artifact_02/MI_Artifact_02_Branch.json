@@ -1,0 +1,203 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Artifact_02_Branch",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_LMaster_ItemOrCar'",
+        "ObjectPath": "PenDriverPro/Content/BaseArt/LayerMasterMats/M_LMaster_ItemOrCar.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Uniform UV Tile",
+            "Association": "LayerParameter",
+            "Index": 0
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "EnableFP FOV Correction",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "3055DE89-4357279F-DEA9AA94-3FD77593"
+          }
+        ],
+        "MaterialLayersParameters": [
+          {
+            "Value": {
+              "Layers": [
+                {
+                  "ObjectName": "MaterialFunctionMaterialLayer'ML_Bark_Pine_02'",
+                  "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/ML_Bark_Pine_02.0"
+                }
+              ],
+              "Blends": [],
+              "LayerStates": [
+                true
+              ]
+            },
+            "ParameterInfo": {
+              "Name": "Base",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "7B2318FB-4D3A6EAA-C5786393-AD058531"
+          }
+        ]
+      },
+      "CachedLayerParameters": {
+        "RuntimeEntries": {
+          "NameHashes": [
+            1694830564590550348,
+            3136704103155467200,
+            10140865929421008903,
+            10927248039619296835,
+            13429154380823107863,
+            14786838698692447577,
+            17539791837314640968,
+            18093738127814569024
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Normal Str",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "HeightHigh",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "Uniform UV Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "HeightLow",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "U Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "R",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "2MeterFitValue_DONTCHANGE",
+              "Association": "LayerParameter",
+              "Index": 0
+            },
+            {
+              "Name": "V Tile",
+              "Association": "LayerParameter",
+              "Index": 0
+            }
+          ],
+          "ExpressionGuids": [
+            "9F6F07F0-421B4EE5-E4BB6EA4-C61871FE",
+            "E1467946-449BC966-0C5C6D8C-7A445E84",
+            "857FC22F-4979511F-525CB98E-647CAD83",
+            "0EE9E0C8-44BE9C2F-9E5E389B-9728D96E",
+            "75343ED7-4C911736-F953469A-380BDDC2",
+            "586DFE8A-420F237B-90B6CAB5-38154C55",
+            "4106862D-41CA3246-A02434A4-3AE3076B",
+            "2CA33C70-48D683B1-2D47E490-8E822D21"
+          ]
+        },
+        "RuntimeEntries[1]": {
+          "NameHashes": [
+            6338076585572178316
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Tint",
+              "Association": "LayerParameter",
+              "Index": 0
+            }
+          ],
+          "ExpressionGuids": [
+            "A677E718-4B4BFC81-23B73E87-A07C1300"
+          ]
+        },
+        "ScalarValues": [
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "VectorValues": [
+          {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'GlyphLines_bigSheet'",
+          "ObjectPath": "PenDriverPro/Content/VFX/Textures/GlyphLines_bigSheet.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Noise_Soft_32bit'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Noise2D/T_Noise_Soft_32bit.0"
+        },
+        {
+          "ObjectName": "CurveLinearColorAtlas'CA_VFX'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LUT/CA_VFX.0"
+        },
+        {
+          "ObjectName": "VolumeTexture'VT_Voronoi'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/TechTextures/Volume/VT_Voronoi.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Bark_Pine_02_N'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Bark_Pine_02_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_D.0"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

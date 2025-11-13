@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_Door_FR_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.10"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.10"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_Door_FR_C'Default__ACE_Door_FR_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_FR.1"
+    }
+  },
+  {
+    "Type": "ACE_Door_FR_C",
+    "Name": "Default__ACE_Door_FR_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_FR.ACE_Door_FR_C'",
+    "Template": {
+      "ObjectName": "ACE_Door_C'Default__ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.11"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TargetDoor": "EOpenableDoors::NewEnumerator1",
+      "CauseDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_rightdoor_title_cause_down",
+        "SourceString": "Protected",
+        "LocalizedString": "Protected"
+      },
+      "CauseUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_rightdoor_title_cause_up",
+        "SourceString": "Accessible",
+        "LocalizedString": "Accessible"
+      },
+      "EffectDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_rightdoor_title_effect_down",
+        "SourceString": "Rejection",
+        "LocalizedString": "Rejection"
+      },
+      "EffectUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_rightdoor_title_effect_up",
+        "SourceString": "Access",
+        "LocalizedString": "Access"
+      },
+      "CauseDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_rightdoor_desc_cause_down",
+        "SourceString": "When the <name.door.fr>front right door</><img id=\"door.fr\"/> is <verb.down>closed</>,",
+        "LocalizedString": "When the <name.door.fr>front right door</><img id=\"door.fr\"/> is <verb.down>closed</>,"
+      },
+      "CauseIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_rightdoor_desc_cause_up",
+        "SourceString": "When the <name.door.fr>front right door</><img id=\"door.fr\"/> is <verb.up>opened</>,",
+        "LocalizedString": "When the <name.door.fr>front right door</><img id=\"door.fr\"/> is <verb.up>opened</>,"
+      },
+      "EffectDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_rightdoor_desc_effect_down",
+        "SourceString": "the <name.door.fr>front right door</><img id=\"door.fr\"/> <verb.down>closes</>",
+        "LocalizedString": "the <name.door.fr>front right door</><img id=\"door.fr\"/> <verb.down>closes</>"
+      },
+      "EffectIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_rightdoor_desc_effect_up",
+        "SourceString": "the <name.door.fr>front right door</><img id=\"door.fr\"/> <verb.up>opens</>",
+        "LocalizedString": "the <name.door.fr>front right door</><img id=\"door.fr\"/> <verb.up>opens</>"
+      },
+      "RichIconName": "door.fr"
+    }
+  }
+]

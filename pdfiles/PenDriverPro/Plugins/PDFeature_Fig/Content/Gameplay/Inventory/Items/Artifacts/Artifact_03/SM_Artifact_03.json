@@ -1,0 +1,289 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "SM_Artifact_03",
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "MainCar",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "CarAttachment",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "ScanTrace",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "WheelTraceObject",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AnomalyCarAttachment",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SpawnTrace",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "D114876142AA661D4729B597BDF6718F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 616506,
+        "SizeOnDisk": 616506,
+        "OffsetInFile": "0x20179B"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3",
+    "Outer": "SM_Artifact_03",
+    "Class": "UScriptClass'NavCollision'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x29801D"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Artifact_03",
+    "Class": "UScriptClass'StaticMesh'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'M_artifactCurrentsEmissive'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/M_artifactCurrentsEmissive.0"
+          },
+          "MaterialSlotName": "Emissive",
+          "ImportedMaterialSlotName": "Emissive",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 33.92779,
+            "LocalUVDensities[1]": 34.24154,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Artifact_03_Metal_01'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/MI_Artifact_03_Metal_01.0"
+          },
+          "MaterialSlotName": "Metal",
+          "ImportedMaterialSlotName": "Metal",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 67.32513,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Artifact_03_Rope'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/MI_Artifact_03_Rope.0"
+          },
+          "MaterialSlotName": "Twine",
+          "ImportedMaterialSlotName": "Twine",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 161.06906,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Artifact_03_Branch'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/MI_Artifact_03_Branch.0"
+          },
+          "MaterialSlotName": "Branch",
+          "ImportedMaterialSlotName": "Branch",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 31.61376,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Artifact_03_Metal_02'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/MI_Artifact_03_Metal_02.0"
+          },
+          "MaterialSlotName": "Metal_2",
+          "ImportedMaterialSlotName": "Metal_2",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 65.76332,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 34.24154,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -1.3745842,
+          "Y": -3.6255016,
+          "Z": -0.4601555
+        },
+        "BoxExtent": {
+          "X": 22.02399,
+          "Y": 20.134249,
+          "Z": 19.62429
+        },
+        "SphereRadius": 25.821325
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Artifact_03:BodySetup_0'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/SM_Artifact_03.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Artifact_03:NavCollision_3'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/SM_Artifact_03.1"
+    },
+    "LightingGuid": "EBBFAD2E-4672D671-AB93299A-7A7E00FC",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 320,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 189,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 960,
+              "NumTriangles": 6228,
+              "MinVertexIndex": 190,
+              "MaxVertexIndex": 3785,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 19644,
+              "NumTriangles": 8249,
+              "MinVertexIndex": 3786,
+              "MaxVertexIndex": 8297,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 44391,
+              "NumTriangles": 1608,
+              "MinVertexIndex": 8298,
+              "MaxVertexIndex": 9545,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 49215,
+              "NumTriangles": 6544,
+              "MinVertexIndex": 9546,
+              "MaxVertexIndex": 13326,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 13327
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 13327,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -1.3745842,
+          "Y": -3.6255016,
+          "Z": -0.4601555
+        },
+        "BoxExtent": {
+          "X": 22.02399,
+          "Y": 20.134249,
+          "Z": 19.62429
+        },
+        "SphereRadius": 25.821325
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

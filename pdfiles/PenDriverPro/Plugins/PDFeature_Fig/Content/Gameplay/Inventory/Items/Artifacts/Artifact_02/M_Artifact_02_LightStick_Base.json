@@ -1,0 +1,1404 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Artifact_02_LightStick_Base",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Wood'",
+        "ObjectPath": "PenDriverPro/Content/Systems/PhysicalMaterials/PM_Wood.0"
+      },
+      "Metallic": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionConstant_0",
+        "UseConstant": false,
+        "Constant": 0.0
+      },
+      "Specular": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionScalarParameter_0",
+        "UseConstant": false,
+        "Constant": 0.5
+      },
+      "Normal": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_2",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_2",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_13",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "DitheredLODTransition": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithInstancedStaticMeshes": true,
+      "bFullyRough": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "35CF0A51-4B30F172-888A2BB2-DA403826",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              53220188555680010,
+              428122290501009121,
+              854512567112096253,
+              1694830564590550348,
+              2105181194480164204,
+              2277897381581312285,
+              3484935342160216880,
+              3971526741012035326,
+              5788868134205918355,
+              5986297593940958155,
+              6608581193499878260,
+              6655996875229605180,
+              6732755184884075166,
+              7933842740086680578,
+              8780775841414649634,
+              10314908870800672241,
+              11699853926527682355,
+              11727286808963657904,
+              13016799783781593878,
+              14007129113774094549,
+              14237946461339156682,
+              14786838698692447577,
+              15061559680341258059,
+              15475405593545223188,
+              16013335866397793078,
+              17679902432236915267
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Blend Str",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Moss Tile Rate",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "GlowFresPower",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Normal Str",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Zoffset",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Blend sharp",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "sssss",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "HeightMap Intensity",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Base Tile Rate",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Bend PointLerp",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Bounds Scale",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Moss Noise Scale",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "GlowFresnel",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Spec",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Car Rotation Amount",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Car Bend Falloff",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Noise Power",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Zup In",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "FPFOVBlend",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Flatten Car Offset",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Zup Out",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "R",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "tilt",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Param_2",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Fresnel Moss min",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "randOffset",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "EC7BDAAA-4331C7BB-5A00C2A0-627AC810",
+              "FE22CCCB-45FDDF4B-0DE33195-86570725",
+              "0BF45FD5-464AB4B6-36DCC2AA-36BD1AA9",
+              "C9E45ABA-4AAE7969-49B48682-B1151432",
+              "CCF65FCC-4C31345E-79BCADB4-0F7B9243",
+              "9DC93384-4D356C2F-B3D320AB-2AAC2676",
+              "FB2048D4-4900F0D2-4CCD9CB0-84E02963",
+              "2DCC30C1-4F25A9DD-22508595-EBEB2C1A",
+              "67FDAD9F-488BEA45-C7AA4083-9DEC23E5",
+              "26D78647-40631450-2CDB739E-F1C32DEB",
+              "D89C3355-4F297000-C6BCD8AD-D3AB927E",
+              "B4A695A1-41AED848-515383BD-FFEB3D8B",
+              "B92C8AAC-4A6F2957-F1AB50AA-B8AE605B",
+              "841D9797-45C37B98-B522DF87-D0D308AE",
+              "6AC202D1-47D669ED-4E130891-48C5C5B6",
+              "51EC3E03-409891EE-2A3D67A5-C00F9A18",
+              "5530E205-4C485EC9-8D94B786-38715FD3",
+              "FE8215BF-411D159D-D52FA4AF-242EB3D4",
+              "187884EF-4B60264C-4CA42196-7443915D",
+              "48F7C9E3-42BE04B5-A087788E-3D0182EC",
+              "19658AE4-47A6EF40-E3FA6095-A62CC8E9",
+              "8CF426DB-44699E6B-53F405B6-0EDE56F0",
+              "150EF7D7-4A05ED04-184112BD-66CFDC2C",
+              "24044783-4FBF6D5B-24985A81-B3EA0519",
+              "33CC993A-4644471E-48756F8A-62CBF2BF",
+              "720D6DAA-4C63E178-F10195BC-8B0E3649"
+            ]
+          },
+          "RuntimeEntries[1]": {
+            "NameHashes": [
+              3059965832169967648,
+              6868964518942124569,
+              10294499049489760787,
+              11554583168564989778,
+              11626001869786065845
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Car Flatten Amount",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "GlowColor2",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Bounds",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "MOss Tint",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "GlowColor1",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "DC0B4674-46FA1668-153215A3-BEA6AD71",
+              "496EB0FB-4196AA3B-8B0A6F94-491F2D0C",
+              "83A8284C-4F394F9E-A94191AC-E41D629D",
+              "865EC83B-40E0E9C9-7D46CC88-7DC6A2CC",
+              "497CDE71-4FB644BD-7389CCB6-0CBFF051"
+            ]
+          },
+          "RuntimeEntries[2]": {
+            "NameHashes": [
+              331225324888612606,
+              1853877103993853889,
+              2119903763301986561,
+              4708953410708818575
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Base Color",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Moss Diffuse",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Moss Normal",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Normal",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "50684B17-4A9CE1CD-19AE749D-A69C0ACC",
+              "1E8E5FD4-404DF82C-EB5061AB-874A5787",
+              "B69F0615-4898C0A5-7B44F495-3EB83A0B",
+              "FCD8DC7B-4341148B-840D2187-C4232DE3"
+            ]
+          },
+          "ScalarValues": [
+            0.0,
+            0.4,
+            3.0,
+            1.0,
+            25.0,
+            0.0,
+            1.5,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            183.70099,
+            0.5,
+            0.0,
+            0.6714,
+            100.0,
+            1.0,
+            0.0,
+            0.0,
+            150.0,
+            1.0,
+            1.0,
+            0.075,
+            1.1,
+            0.5,
+            0.0
+          ],
+          "VectorValues": [
+            {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            {
+              "R": 0.13020833,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "650000"
+            },
+            {
+              "R": 551.7786,
+              "G": 164.08736,
+              "B": 38970172.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            {
+              "R": 0.208333,
+              "G": 0.05131,
+              "B": 0.029297,
+              "A": 0.0,
+              "Hex": "7E402F"
+            },
+            {
+              "R": 8.0,
+              "G": 0.1333332,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "FF6600"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D'T_Bark_Pine_02_D'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_Bark_Mossy_01_D'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_D.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_Bark_Mossy_01_N'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_N.0"
+            },
+            {
+              "ObjectName": "Texture2D'T_Bark_Pine_02_N'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_N.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D'T_Bark_Pine_02_D'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Bark_Pine_02_N'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_N.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Bark_Mossy_01_D'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Bark_Mossy_01_N'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_N.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_base_flat_n'",
+            "ObjectPath": "PenDriverPro/Content/Developers/Adracott/OffRoadVehicle/Textures/BaseTextures/T_base_flat_n.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "D9E9C867-4E2C887C-60B70284-E0D9FB39",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_NormalStr'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_NormalStr.0"
+            }
+          },
+          {
+            "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+            "Function": {
+              "ObjectName": "MaterialFunction'CameraDirectionVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+            }
+          },
+          {
+            "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+            "Function": {
+              "ObjectName": "MaterialFunction'CameraDirectionVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+            }
+          },
+          {
+            "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+            "Function": {
+              "ObjectName": "MaterialFunction'CameraDirectionVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+            }
+          },
+          {
+            "StateId": "DE36398D-4742C47A-21AFADA6-0CA5CB70",
+            "Function": {
+              "ObjectName": "MaterialFunction'FOV'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/FOV.0"
+            }
+          },
+          {
+            "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+            "Function": {
+              "ObjectName": "MaterialFunction'CameraDirectionVector'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+            }
+          },
+          {
+            "StateId": "217351A0-4DA406BE-86DA869A-B659D251",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_WeaponFOV'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_WeaponFOV.0"
+            }
+          },
+          {
+            "StateId": "AB83E0FE-483E795E-F6B79C8A-33888ECE",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_VertexBlend'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_VertexBlend.0"
+            }
+          },
+          {
+            "StateId": "0FF3FB08-414831C3-C27778B5-02DF97B4",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_ZupMask'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_ZupMask.0"
+            }
+          },
+          {
+            "StateId": "72C547B3-457AA083-E55C2994-C3F1418D",
+            "Function": {
+              "ObjectName": "MaterialFunction'Fresnel_Function'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Fresnel_Function.0"
+            }
+          },
+          {
+            "StateId": "F3B864EB-4B169FD4-BFB3E18B-AD667D53",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Remap'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_Remap.0"
+            }
+          },
+          {
+            "StateId": "EDFD8E9B-45B7C8F2-32AFC6BE-FBD42111",
+            "Function": {
+              "ObjectName": "MaterialFunction'ScalarRemapClamped'",
+              "ObjectPath": "PenDriverPro/Content/VFX/Items/Tools/ItemHarvester_Cutter/ScalarRemapClamped.0"
+            }
+          },
+          {
+            "StateId": "127A25CC-4BE0E6F9-0A2D99BF-43C74E15",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat4Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.0"
+            }
+          },
+          {
+            "StateId": "F3B864EB-4B169FD4-BFB3E18B-AD667D53",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Remap'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_Remap.0"
+            }
+          },
+          {
+            "StateId": "EDFD8E9B-45B7C8F2-32AFC6BE-FBD42111",
+            "Function": {
+              "ObjectName": "MaterialFunction'ScalarRemapClamped'",
+              "ObjectPath": "PenDriverPro/Content/VFX/Items/Tools/ItemHarvester_Cutter/ScalarRemapClamped.0"
+            }
+          },
+          {
+            "StateId": "127A25CC-4BE0E6F9-0A2D99BF-43C74E15",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat4Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction'VectorLength'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "ED373B1B-4D54B39F-8D059899-1A407473",
+            "Function": {
+              "ObjectName": "MaterialFunction'BoxMask-3D'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction'VectorLength'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "ED373B1B-4D54B39F-8D059899-1A407473",
+            "Function": {
+              "ObjectName": "MaterialFunction'BoxMask-3D'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D.0"
+            }
+          },
+          {
+            "StateId": "129F409B-4F90E650-D1E143A0-99ACFF75",
+            "Function": {
+              "ObjectName": "MaterialFunction'MTF_CarMask'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MTF_CarMask.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction'VectorLength'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "ED373B1B-4D54B39F-8D059899-1A407473",
+            "Function": {
+              "ObjectName": "MaterialFunction'BoxMask-3D'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction'VectorLength'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "ED373B1B-4D54B39F-8D059899-1A407473",
+            "Function": {
+              "ObjectName": "MaterialFunction'BoxMask-3D'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D.0"
+            }
+          },
+          {
+            "StateId": "129F409B-4F90E650-D1E143A0-99ACFF75",
+            "Function": {
+              "ObjectName": "MaterialFunction'MTF_CarMask'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MTF_CarMask.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "51BAB8B3-4E7EFBFD-B4515E9F-9703A6B1",
+            "Function": {
+              "ObjectName": "MaterialFunction'ComponentPivotLocation'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ComponentPivotLocation.0"
+            }
+          },
+          {
+            "StateId": "51BAB8B3-4E7EFBFD-B4515E9F-9703A6B1",
+            "Function": {
+              "ObjectName": "MaterialFunction'ComponentPivotLocation'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ComponentPivotLocation.0"
+            }
+          },
+          {
+            "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+            "Function": {
+              "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+            }
+          },
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction'VectorLength'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "E6715291-45CBD5A7-9C2DB096-ABFA19DF",
+            "Function": {
+              "ObjectName": "MaterialFunction'AppendMany'",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/AppendMany.0"
+            }
+          }
+        ],
+        "ParameterCollectionInfos": [
+          {
+            "StateId": "8599BA3B-4DF3581D-DBC1878F-20335ED6",
+            "ParameterCollection": {
+              "ObjectName": "MaterialParameterCollection'MPC_FPFOV'",
+              "ObjectPath": "PenDriverPro/Content/BaseArt/MPC/MPC_FPFOV.0"
+            }
+          },
+          {
+            "StateId": "703B75A6-44E7520B-BEE72F9E-7DFB11D9",
+            "ParameterCollection": {
+              "ObjectName": "MaterialParameterCollection'MPC_Car'",
+              "ObjectPath": "PenDriverPro/Content/Characters/PlayerCar/Art/MPC_Car.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "LightmassSettings": {
+        "bCastShadowAsMasked": true
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Bark_Mossy_01_N"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "Parameters": {
+        "RuntimeEntries": {
+          "NameHashes": [
+            53220188555680010,
+            428122290501009121,
+            854512567112096253,
+            1694830564590550348,
+            2105181194480164204,
+            2277897381581312285,
+            3484935342160216880,
+            3971526741012035326,
+            5788868134205918355,
+            5986297593940958155,
+            6608581193499878260,
+            6655996875229605180,
+            6732755184884075166,
+            7933842740086680578,
+            8780775841414649634,
+            10314908870800672241,
+            11699853926527682355,
+            11727286808963657904,
+            13016799783781593878,
+            14007129113774094549,
+            14237946461339156682,
+            14786838698692447577,
+            15061559680341258059,
+            15475405593545223188,
+            16013335866397793078,
+            17679902432236915267
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Blend Str",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Moss Tile Rate",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "GlowFresPower",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Normal Str",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Zoffset",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Blend sharp",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "sssss",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "HeightMap Intensity",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Base Tile Rate",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Bend PointLerp",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Bounds Scale",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Moss Noise Scale",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "GlowFresnel",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Spec",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Car Rotation Amount",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Car Bend Falloff",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Noise Power",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Zup In",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "FPFOVBlend",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Flatten Car Offset",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Zup Out",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "R",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "tilt",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Param_2",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Fresnel Moss min",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "randOffset",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "EC7BDAAA-4331C7BB-5A00C2A0-627AC810",
+            "FE22CCCB-45FDDF4B-0DE33195-86570725",
+            "0BF45FD5-464AB4B6-36DCC2AA-36BD1AA9",
+            "C9E45ABA-4AAE7969-49B48682-B1151432",
+            "CCF65FCC-4C31345E-79BCADB4-0F7B9243",
+            "9DC93384-4D356C2F-B3D320AB-2AAC2676",
+            "FB2048D4-4900F0D2-4CCD9CB0-84E02963",
+            "2DCC30C1-4F25A9DD-22508595-EBEB2C1A",
+            "67FDAD9F-488BEA45-C7AA4083-9DEC23E5",
+            "26D78647-40631450-2CDB739E-F1C32DEB",
+            "D89C3355-4F297000-C6BCD8AD-D3AB927E",
+            "B4A695A1-41AED848-515383BD-FFEB3D8B",
+            "B92C8AAC-4A6F2957-F1AB50AA-B8AE605B",
+            "841D9797-45C37B98-B522DF87-D0D308AE",
+            "6AC202D1-47D669ED-4E130891-48C5C5B6",
+            "51EC3E03-409891EE-2A3D67A5-C00F9A18",
+            "5530E205-4C485EC9-8D94B786-38715FD3",
+            "FE8215BF-411D159D-D52FA4AF-242EB3D4",
+            "187884EF-4B60264C-4CA42196-7443915D",
+            "48F7C9E3-42BE04B5-A087788E-3D0182EC",
+            "19658AE4-47A6EF40-E3FA6095-A62CC8E9",
+            "8CF426DB-44699E6B-53F405B6-0EDE56F0",
+            "150EF7D7-4A05ED04-184112BD-66CFDC2C",
+            "24044783-4FBF6D5B-24985A81-B3EA0519",
+            "33CC993A-4644471E-48756F8A-62CBF2BF",
+            "720D6DAA-4C63E178-F10195BC-8B0E3649"
+          ]
+        },
+        "RuntimeEntries[1]": {
+          "NameHashes": [
+            3059965832169967648,
+            6868964518942124569,
+            10294499049489760787,
+            11554583168564989778,
+            11626001869786065845
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Car Flatten Amount",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "GlowColor2",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Bounds",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "MOss Tint",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "GlowColor1",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "DC0B4674-46FA1668-153215A3-BEA6AD71",
+            "496EB0FB-4196AA3B-8B0A6F94-491F2D0C",
+            "83A8284C-4F394F9E-A94191AC-E41D629D",
+            "865EC83B-40E0E9C9-7D46CC88-7DC6A2CC",
+            "497CDE71-4FB644BD-7389CCB6-0CBFF051"
+          ]
+        },
+        "RuntimeEntries[2]": {
+          "NameHashes": [
+            331225324888612606,
+            1853877103993853889,
+            2119903763301986561,
+            4708953410708818575
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Base Color",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Moss Diffuse",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Moss Normal",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Normal",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "50684B17-4A9CE1CD-19AE749D-A69C0ACC",
+            "1E8E5FD4-404DF82C-EB5061AB-874A5787",
+            "B69F0615-4898C0A5-7B44F495-3EB83A0B",
+            "FCD8DC7B-4341148B-840D2187-C4232DE3"
+          ]
+        },
+        "ScalarValues": [
+          0.0,
+          0.4,
+          3.0,
+          1.0,
+          25.0,
+          0.0,
+          1.5,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          183.70099,
+          0.5,
+          0.0,
+          0.6714,
+          100.0,
+          1.0,
+          0.0,
+          0.0,
+          150.0,
+          1.0,
+          1.0,
+          0.075,
+          1.1,
+          0.5,
+          0.0
+        ],
+        "VectorValues": [
+          {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "000000"
+          },
+          {
+            "R": 0.13020833,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "650000"
+          },
+          {
+            "R": 551.7786,
+            "G": 164.08736,
+            "B": 38970172.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          },
+          {
+            "R": 0.208333,
+            "G": 0.05131,
+            "B": 0.029297,
+            "A": 0.0,
+            "Hex": "7E402F"
+          },
+          {
+            "R": 8.0,
+            "G": 0.1333332,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF6600"
+          }
+        ],
+        "TextureValues": [
+          {
+            "ObjectName": "Texture2D'T_Bark_Pine_02_D'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Bark_Mossy_01_D'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_D.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Bark_Mossy_01_N'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_N.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Bark_Pine_02_N'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_N.0"
+          }
+        ]
+      },
+      "ReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_Bark_Pine_02_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_D.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Bark_Pine_02_N'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Pine_02_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Bark_Mossy_01_D'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_D.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Bark_Mossy_01_N'",
+          "ObjectPath": "PenDriverPro/Content/BaseArt/LayerLibrary/Bark/T_Bark_Mossy_01_N.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_base_flat_n'",
+          "ObjectPath": "PenDriverPro/Content/Developers/Adracott/OffRoadVehicle/Textures/BaseTextures/T_base_flat_n.0"
+        }
+      ],
+      "FunctionInfos": [
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "D9E9C867-4E2C887C-60B70284-E0D9FB39",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_NormalStr'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_NormalStr.0"
+          }
+        },
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "DE36398D-4742C47A-21AFADA6-0CA5CB70",
+          "Function": {
+            "ObjectName": "MaterialFunction'FOV'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/FOV.0"
+          }
+        },
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "217351A0-4DA406BE-86DA869A-B659D251",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_WeaponFOV'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_WeaponFOV.0"
+          }
+        },
+        {
+          "StateId": "AB83E0FE-483E795E-F6B79C8A-33888ECE",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_VertexBlend'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_VertexBlend.0"
+          }
+        },
+        {
+          "StateId": "0FF3FB08-414831C3-C27778B5-02DF97B4",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_ZupMask'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_ZupMask.0"
+          }
+        },
+        {
+          "StateId": "72C547B3-457AA083-E55C2994-C3F1418D",
+          "Function": {
+            "ObjectName": "MaterialFunction'Fresnel_Function'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Fresnel_Function.0"
+          }
+        },
+        {
+          "StateId": "F3B864EB-4B169FD4-BFB3E18B-AD667D53",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_Remap'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_Remap.0"
+          }
+        },
+        {
+          "StateId": "EDFD8E9B-45B7C8F2-32AFC6BE-FBD42111",
+          "Function": {
+            "ObjectName": "MaterialFunction'ScalarRemapClamped'",
+            "ObjectPath": "PenDriverPro/Content/VFX/Items/Tools/ItemHarvester_Cutter/ScalarRemapClamped.0"
+          }
+        },
+        {
+          "StateId": "127A25CC-4BE0E6F9-0A2D99BF-43C74E15",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat4Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.0"
+          }
+        },
+        {
+          "StateId": "F3B864EB-4B169FD4-BFB3E18B-AD667D53",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_Remap'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MF_Remap.0"
+          }
+        },
+        {
+          "StateId": "EDFD8E9B-45B7C8F2-32AFC6BE-FBD42111",
+          "Function": {
+            "ObjectName": "MaterialFunction'ScalarRemapClamped'",
+            "ObjectPath": "PenDriverPro/Content/VFX/Items/Tools/ItemHarvester_Cutter/ScalarRemapClamped.0"
+          }
+        },
+        {
+          "StateId": "127A25CC-4BE0E6F9-0A2D99BF-43C74E15",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat4Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.0"
+          }
+        },
+        {
+          "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+          }
+        },
+        {
+          "StateId": "ED373B1B-4D54B39F-8D059899-1A407473",
+          "Function": {
+            "ObjectName": "MaterialFunction'BoxMask-3D'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+          }
+        },
+        {
+          "StateId": "ED373B1B-4D54B39F-8D059899-1A407473",
+          "Function": {
+            "ObjectName": "MaterialFunction'BoxMask-3D'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D.0"
+          }
+        },
+        {
+          "StateId": "129F409B-4F90E650-D1E143A0-99ACFF75",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_CarMask'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MTF_CarMask.0"
+          }
+        },
+        {
+          "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+          }
+        },
+        {
+          "StateId": "ED373B1B-4D54B39F-8D059899-1A407473",
+          "Function": {
+            "ObjectName": "MaterialFunction'BoxMask-3D'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+          }
+        },
+        {
+          "StateId": "ED373B1B-4D54B39F-8D059899-1A407473",
+          "Function": {
+            "ObjectName": "MaterialFunction'BoxMask-3D'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D.0"
+          }
+        },
+        {
+          "StateId": "129F409B-4F90E650-D1E143A0-99ACFF75",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_CarMask'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MaterialFunctions/MTF_CarMask.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "51BAB8B3-4E7EFBFD-B4515E9F-9703A6B1",
+          "Function": {
+            "ObjectName": "MaterialFunction'ComponentPivotLocation'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ComponentPivotLocation.0"
+          }
+        },
+        {
+          "StateId": "51BAB8B3-4E7EFBFD-B4515E9F-9703A6B1",
+          "Function": {
+            "ObjectName": "MaterialFunction'ComponentPivotLocation'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ComponentPivotLocation.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+          }
+        },
+        {
+          "StateId": "E6715291-45CBD5A7-9C2DB096-ABFA19DF",
+          "Function": {
+            "ObjectName": "MaterialFunction'AppendMany'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/AppendMany.0"
+          }
+        }
+      ],
+      "ParameterCollectionInfos": [
+        {
+          "StateId": "8599BA3B-4DF3581D-DBC1878F-20335ED6",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'MPC_FPFOV'",
+            "ObjectPath": "PenDriverPro/Content/BaseArt/MPC/MPC_FPFOV.0"
+          }
+        },
+        {
+          "StateId": "703B75A6-44E7520B-BEE72F9E-7DFB11D9",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'MPC_Car'",
+            "ObjectPath": "PenDriverPro/Content/Characters/PlayerCar/Art/MPC_Car.0"
+          }
+        }
+      ],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+]

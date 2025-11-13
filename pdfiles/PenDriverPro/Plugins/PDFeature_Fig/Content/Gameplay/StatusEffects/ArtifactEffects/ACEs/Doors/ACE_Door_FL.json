@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "Function",
+    "Name": "DoorCanBeToggled",
+    "Outer": "ACE_Door_FL_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'ACE_Door_C:DoorCanBeToggled'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.9"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'ACE_Door_C:DoorCanBeToggled'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.9"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "SafeToChange",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum'PlayerCarState'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/PlayerCarState.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_CarManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_CarManager.397"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_Get_PlayerCarState_ReturnedState",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "UserDefinedEnum'PlayerCarState'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/PlayerCarState.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_Door_FL_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.10"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.10"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ACE_Door_FL_C:DoorCanBeToggled'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_FL.0"
+      }
+    ],
+    "FuncMap": {
+      "DoorCanBeToggled": {
+        "ObjectName": "Function'ACE_Door_FL_C:DoorCanBeToggled'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_FL.0"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_Door_FL_C'Default__ACE_Door_FL_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_FL.2"
+    }
+  },
+  {
+    "Type": "ACE_Door_FL_C",
+    "Name": "Default__ACE_Door_FL_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_FL.ACE_Door_FL_C'",
+    "Template": {
+      "ObjectName": "ACE_Door_C'Default__ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.11"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CauseDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_leftdoor_title_cause_down",
+        "SourceString": "Sheltered",
+        "LocalizedString": "Sheltered"
+      },
+      "CauseUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_leftdoor_title_cause_up",
+        "SourceString": "Wide-Eyed",
+        "LocalizedString": "Wide-Eyed"
+      },
+      "EffectDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_leftdoor_title_effect_down",
+        "SourceString": "Enclosure",
+        "LocalizedString": "Enclosure"
+      },
+      "EffectUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_leftdoor_title_effect_up",
+        "SourceString": "Departure",
+        "LocalizedString": "Departure"
+      },
+      "CauseDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_leftdoor_desc_cause_down",
+        "SourceString": "When the <name.door.fl>front left door</><img id=\"door.fl\"/> is <verb.down>closed</>,",
+        "LocalizedString": "When the <name.door.fl>front left door</><img id=\"door.fl\"/> is <verb.down>closed</>,"
+      },
+      "CauseIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_leftdoor_desc_cause_up",
+        "SourceString": "When the <name.door.fl>front left door</><img id=\"door.fl\"/> is <verb.up>opened</>,",
+        "LocalizedString": "When the <name.door.fl>front left door</><img id=\"door.fl\"/> is <verb.up>opened</>,"
+      },
+      "EffectDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_leftdoor_desc_effect_down",
+        "SourceString": "the <name.door.fl>front left door</><img id=\"door.fl\"/> <verb.down>closes</>",
+        "LocalizedString": "the <name.door.fl>front left door</><img id=\"door.fl\"/> <verb.down>closes</>"
+      },
+      "EffectIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_leftdoor_desc_effect_up",
+        "SourceString": "the <name.door.fl>front left door</><img id=\"door.fl\"/> <verb.up>opens</>",
+        "LocalizedString": "the <name.door.fl>front left door</><img id=\"door.fl\"/> <verb.up>opens</>"
+      },
+      "RichIconName": "door.fl"
+    }
+  }
+]

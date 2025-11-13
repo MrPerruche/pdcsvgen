@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "ItemArchetype",
+    "Name": "IA_Artifact_Shadows",
+    "Class": "UScriptClass'ItemArchetype'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Properties": [
+        {
+          "ObjectName": "ItemProperties'IP_WorldItem'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/GenericItemProperties/IP_WorldItem.0"
+        },
+        {
+          "ObjectName": "ItemProperties'IP_Evolution'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/GenericItemProperties/Fig/IP_Evolution.0"
+        },
+        {
+          "ObjectName": "ItemProperties'IP_Artifact'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/GenericItemProperties/IP_Artifact.0"
+        },
+        {
+          "ObjectName": "ItemProperties'IP_InventoryDisplayStyle'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/GenericItemProperties/IP_InventoryDisplayStyle.0"
+        },
+        {
+          "ObjectName": "ItemProperties'IP_StatusEffectCondition'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/GenericItemProperties/IP_StatusEffectCondition.0"
+        },
+        {
+          "ObjectName": "ItemProperties'IP_UI_InfoBox'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/GenericItemProperties/IP_UI_InfoBox.0"
+        },
+        {
+          "ObjectName": "ItemProperties'IP_Smeltable'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/CarGarage/Stations/EvolvedFurnance/IP_Smeltable.0"
+        },
+        {
+          "ObjectName": "ItemProperties'IP_CustomItemDisplayInfo'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/GenericItemProperties/IP_CustomItemDisplayInfo.0"
+        },
+        {
+          "ObjectName": "ItemProperties'IP_ItemPreservation'",
+          "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/GenericItemProperties/IP_ItemPreservation.0"
+        }
+      ],
+      "WorldManifestationOverride": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_World.BP_Artifact_Shadows_World_C",
+        "SubPathString": ""
+      },
+      "HandManifestationOverride": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/Inventory/Items/Artifacts/Artifact_01/BP_Artifact_Shadows_Hand.BP_Artifact_Shadows_Hand_C",
+        "SubPathString": ""
+      },
+      "TileWidth": 2,
+      "TileHeight": 2,
+      "NewStackSize": "EItemStackSize::STACKSIZE1",
+      "LogbookEntryMode": "EItemEntryMode::UseExternalLogData",
+      "OverrideLogSourceRef": {
+        "ObjectName": "LogBookDataGeneric'LOG_FoundItem_Artifact_Darkness'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/LOG_FoundItem_Artifact_Darkness.0"
+      },
+      "Title": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_item_darkness_title",
+        "SourceString": "Artifact of Shadows",
+        "LocalizedString": "Artifact of Shadows"
+      },
+      "Description": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_item_darkness_desc",
+        "SourceString": "This artifact is of the night. A strange silence surrounds it, though it is not one that you would describe as either pleasant or peaceful. There is some strange sense of tension in this object.",
+        "LocalizedString": "This artifact is of the night. A strange silence surrounds it, though it is not one that you would describe as either pleasant or peaceful. There is some strange sense of tension in this object."
+      },
+      "Icon": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_ArtifactDarkness'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/UI/Icons/Item_Icons/Artifacts/T_Icon_ArtifactDarkness.0"
+        }
+      }
+    }
+  }
+]

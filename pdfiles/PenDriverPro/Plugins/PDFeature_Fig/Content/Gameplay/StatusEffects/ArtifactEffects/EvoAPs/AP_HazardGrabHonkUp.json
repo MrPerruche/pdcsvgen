@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "ArtifactEvoAsset_C",
+    "Name": "AP_HazardGrabHonkUp",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.ArtifactEvoAsset_C'",
+    "Template": {
+      "ObjectName": "ArtifactEvoAsset_C'Default__ArtifactEvoAsset_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.5"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PipCost": 6,
+      "Cause": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_HazardGrab.ACE_HazardGrab_C",
+        "SubPathString": ""
+      },
+      "CauseMustIncrease": true,
+      "Effect": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Honk.ACE_Honk_C",
+        "SubPathString": ""
+      },
+      "EffectIncreases": true,
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'ArtifactEvoAsset_C'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.4"
+      }
+    }
+  }
+]

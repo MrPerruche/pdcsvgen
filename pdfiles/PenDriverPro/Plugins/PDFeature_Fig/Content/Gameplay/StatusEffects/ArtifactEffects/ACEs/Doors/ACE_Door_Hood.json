@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ACE_Door_Hood_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.10"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.10"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ACE_Door_Hood_C'Default__ACE_Door_Hood_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_Hood.1"
+    }
+  },
+  {
+    "Type": "ACE_Door_Hood_C",
+    "Name": "Default__ACE_Door_Hood_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door_Hood.ACE_Door_Hood_C'",
+    "Template": {
+      "ObjectName": "ACE_Door_C'Default__ACE_Door_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ACEs/Doors/ACE_Door.11"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TargetDoor": "EOpenableDoors::NewEnumerator4",
+      "CauseDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_hood_title_cause_down",
+        "SourceString": "Hooded",
+        "LocalizedString": "Hooded"
+      },
+      "CauseUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_hood_title_cause_up",
+        "SourceString": "Obscured",
+        "LocalizedString": "Obscured"
+      },
+      "EffectDownName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_hood_title_effect_down",
+        "SourceString": "Security",
+        "LocalizedString": "Security"
+      },
+      "EffectUpName": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_hood_title_effect_up",
+        "SourceString": "Flip",
+        "LocalizedString": "Flip"
+      },
+      "CauseDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_hood_desc_cause_down",
+        "SourceString": "When the <name.door.hood>hood</><img id=\"door.hood\"/> is <verb.down>closed</>,",
+        "LocalizedString": "When the <name.door.hood>hood</><img id=\"door.hood\"/> is <verb.down>closed</>,"
+      },
+      "CauseIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_hood_desc_cause_up",
+        "SourceString": "When the <name.door.hood>hood</><img id=\"door.hood\"/> is <verb.up>opened</>,",
+        "LocalizedString": "When the <name.door.hood>hood</><img id=\"door.hood\"/> is <verb.up>opened</>,"
+      },
+      "EffectDecrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_hood_desc_effect_down",
+        "SourceString": "the <name.door.hood>hood</><img id=\"door.hood\"/> <verb.down>closes</>",
+        "LocalizedString": "the <name.door.hood>hood</><img id=\"door.hood\"/> <verb.down>closes</>"
+      },
+      "EffectIncrease": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_hood_desc_effect_up",
+        "SourceString": "the <name.door.hood>hood</><img id=\"door.hood\"/> <verb.up>opens</>",
+        "LocalizedString": "the <name.door.hood>hood</><img id=\"door.hood\"/> <verb.up>opens</>"
+      },
+      "RichIconName": "door.hood"
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "EN_ArtifactFeedbackType",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "787CBB1445D948EB529CD18D3A8D5D18",
+            "SourceString": "Chassis",
+            "LocalizedString": "Chassis"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "AA370D2C492A7CA1C79300B0BD673918",
+            "SourceString": "CarHealth",
+            "LocalizedString": "CarHealth"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "284789F842AC954F152013A3EF8040EC",
+            "SourceString": "Computer",
+            "LocalizedString": "Computer"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "46FBD47B4F95C73B1A9E9091C4BBC685",
+            "SourceString": "Headlights",
+            "LocalizedString": "Headlights"
+          }
+        },
+        {
+          "Key": "NewEnumerator4",
+          "Value": {
+            "Namespace": "",
+            "Key": "2F9C7638426474AB246D8C86FE3619F3",
+            "SourceString": "Battery",
+            "LocalizedString": "Battery"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "2F2DE0C9437BB74BB592B0BEABC911E7",
+            "SourceString": "Fuel",
+            "LocalizedString": "Fuel"
+          }
+        },
+        {
+          "Key": "NewEnumerator6",
+          "Value": {
+            "Namespace": "",
+            "Key": "D6DEB3A04EDB892B646A2FA20902FE24",
+            "SourceString": "Speedometer",
+            "LocalizedString": "Speedometer"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "27B7F4D1481C6477A53640879E946635",
+            "SourceString": "None",
+            "LocalizedString": "None"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "EN_ArtifactFeedbackType::NewEnumerator7": 0,
+      "EN_ArtifactFeedbackType::NewEnumerator0": 1,
+      "EN_ArtifactFeedbackType::NewEnumerator1": 2,
+      "EN_ArtifactFeedbackType::NewEnumerator2": 3,
+      "EN_ArtifactFeedbackType::NewEnumerator4": 4,
+      "EN_ArtifactFeedbackType::NewEnumerator3": 5,
+      "EN_ArtifactFeedbackType::NewEnumerator5": 6,
+      "EN_ArtifactFeedbackType::NewEnumerator6": 7,
+      "EN_ArtifactFeedbackType::EN_MAX": 8
+    },
+    "CppForm": "Namespaced"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "ArtifactEvoAsset_C",
+    "Name": "AP_HealthDownFuelUp",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.ArtifactEvoAsset_C'",
+    "Template": {
+      "ObjectName": "ArtifactEvoAsset_C'Default__ArtifactEvoAsset_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.5"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PipCost": 9,
+      "Cause": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Health.ACE_Health_C",
+        "SubPathString": ""
+      },
+      "Effect": {
+        "AssetPathName": "/PDFeature_Fig/Gameplay/StatusEffects/ArtifactEffects/ACEs/ACE_Fuel.ACE_Fuel_C",
+        "SubPathString": ""
+      },
+      "EffectIncreases": true,
+      "Multiplier": 0.14,
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'ArtifactEvoAsset_C'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/StatusEffects/ArtifactEffects/ArtifactEvoAsset.4"
+      }
+    }
+  }
+]

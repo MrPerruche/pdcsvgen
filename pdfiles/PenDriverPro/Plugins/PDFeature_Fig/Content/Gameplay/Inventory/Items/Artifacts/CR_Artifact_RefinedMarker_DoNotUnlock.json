@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "InventoryRecipe",
+    "Name": "CR_Artifact_RefinedMarker_DoNotUnlock",
+    "Class": "UScriptClass'InventoryRecipe'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bUseComponentsForUnlock": false,
+      "Recipe": {
+        "Products": [
+          {
+            "OutputType": "ERecipeComponentInputType::Item",
+            "Item": {
+              "Archetype": {
+                "ObjectName": "ItemArchetype'IA_Artifact_Shadows'",
+                "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/IA_Artifact_Shadows.0"
+              },
+              "Quantity": 1
+            },
+            "Currency": {
+              "Archetype": null,
+              "Quantity": 1.0
+            }
+          },
+          {
+            "OutputType": "ERecipeComponentInputType::Item",
+            "Item": {
+              "Archetype": {
+                "ObjectName": "ItemArchetype'IA_Artifact_Currents'",
+                "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/IA_Artifact_Currents.0"
+              },
+              "Quantity": 1
+            },
+            "Currency": {
+              "Archetype": null,
+              "Quantity": 1.0
+            }
+          },
+          {
+            "OutputType": "ERecipeComponentInputType::Item",
+            "Item": {
+              "Archetype": {
+                "ObjectName": "ItemArchetype'IA_Artifact_Wilds'",
+                "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/IA_Artifact_Wilds.0"
+              },
+              "Quantity": 1
+            },
+            "Currency": {
+              "Archetype": null,
+              "Quantity": 1.0
+            }
+          }
+        ]
+      },
+      "UnlockConditions": [
+        {
+          "ConditionText": {
+            "CultureInvariantString": "Recipe is used for shredder logic, should never be player-facing!"
+          },
+          "RequiredCondition": {
+            "ObjectName": "WBC_FALSE_C'CR_Artifact_RefinedMarker_DoNotUnlock:WBC_FALSE_C_0'",
+            "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/CR_Artifact_RefinedMarker_DoNotUnlock.1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WBC_FALSE_C",
+    "Name": "WBC_FALSE_C_0",
+    "Outer": "CR_Artifact_RefinedMarker_DoNotUnlock",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Content/Systems/Whiteboard/WBC_FALSE.WBC_FALSE_C'",
+    "Template": {
+      "ObjectName": "WBC_FALSE_C'Default__WBC_FALSE_C'",
+      "ObjectPath": "PenDriverPro/Content/Systems/Whiteboard/WBC_FALSE.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

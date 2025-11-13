@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "LogBookDataGeneric",
+    "Name": "LOG_FoundItem_Artifact_Water",
+    "Class": "UScriptClass'LogBookDataGeneric'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Title": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_item_water_title",
+        "SourceString": "Artifact of Currents",
+        "LocalizedString": "Artifact of Currents"
+      },
+      "Description": {
+        "TableId": "/PDFeature_Fig/StringTables/ST_FIG.ST_FIG",
+        "Key": "fig_artifact_item_water_desc",
+        "SourceString": "This artifact is of the water. It somehow still seems wet to the touch, despite no apparent moisture, and feels as cold as the forgotten depths it once called home.",
+        "LocalizedString": "This artifact is of the water. It somehow still seems wet to the touch, despite no apparent moisture, and feels as cold as the forgotten depths it once called home."
+      },
+      "LogCategory": {
+        "TagName": "UI.Categories.Logbook.Item"
+      },
+      "Icon": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_ArtifactWater'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/UI/Icons/Item_Icons/Artifacts/T_Icon_ArtifactWater.0"
+        }
+      },
+      "AttributeObjects": [
+        {
+          "Key": {
+            "TagName": "UI.Categories.LogbookAttributes.BiomePresence"
+          },
+          "Value": {
+            "AssetPathName": "/PDFeature_Fig/Systems/Biomes/BiomeTagIdentifier_ForestFig_Water.BiomeTagIdentifier_ForestFig_Water",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ImageDelegates": {
+        "ObjectName": "LogBookDataImageDelegates'LOG_FoundItem_Artifact_Water:ImageDelegates'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/LOG_FoundItem_Artifact_Water.1"
+      }
+    }
+  },
+  {
+    "Type": "LogBookDataImageDelegates",
+    "Name": "ImageDelegates",
+    "Outer": "LOG_FoundItem_Artifact_Water",
+    "Class": "UScriptClass'LogBookDataImageDelegates'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

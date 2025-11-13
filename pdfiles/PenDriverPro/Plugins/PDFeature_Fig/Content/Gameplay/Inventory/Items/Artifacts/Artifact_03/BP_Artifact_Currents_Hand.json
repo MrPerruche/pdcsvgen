@@ -1,0 +1,478 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Artifact_Currents_Hand",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_FIG_MainManager_C'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/Managers/BP_FIG_MainManager.97"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_AttachToComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_AddRelativeLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_AttachToComponent_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEquip",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_HandItem_Manifestation_C:OnEquip'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.2"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_HandItem_Manifestation_C:OnEquip'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.2"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SpawnItemMesh",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_BaseHandManifestation_C:SpawnItemMesh'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/BP_BaseHandManifestation.26"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_BaseHandManifestation_C:SpawnItemMesh'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/BP_BaseHandManifestation.26"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_HandItem_Manifestation_C:ReceiveBeginPlay'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.6"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_HandItem_Manifestation_C:ReceiveBeginPlay'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.6"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnHolster",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_HandItem_Manifestation_C:OnHolster'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.11"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_HandItem_Manifestation_C:OnHolster'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.11"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "HolsterTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bWasDropped",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_FIG_MainManager_C'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Systems/Managers/BP_FIG_MainManager.97"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_OnHolster_HolsterTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HandItem_Manifestation_C'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.17"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Artifact_Currents_Hand_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.14"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Artifact_Currents_Hand_C:InheritableComponentHandler'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:ExecuteUbergraph_BP_Artifact_Currents_Hand'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HandItem_Manifestation_C'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.17"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:OnHolster'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.4"
+      },
+      {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:ReceiveBeginPlay'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.3"
+      },
+      {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:SpawnItemMesh'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.2"
+      },
+      {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:OnEquip'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.1"
+      },
+      {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:ExecuteUbergraph_BP_Artifact_Currents_Hand'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParticleSystem",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Artifact_Currents_Hand": {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:ExecuteUbergraph_BP_Artifact_Currents_Hand'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.0"
+      },
+      "OnEquip": {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:OnEquip'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.1"
+      },
+      "SpawnItemMesh": {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:SpawnItemMesh'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:ReceiveBeginPlay'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.3"
+      },
+      "OnHolster": {
+        "ObjectName": "Function'BP_Artifact_Currents_Hand_C:OnHolster'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Artifact_Currents_Hand_C'Default__BP_Artifact_Currents_Hand_C'",
+      "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.6"
+    }
+  },
+  {
+    "Type": "BP_Artifact_Currents_Hand_C",
+    "Name": "Default__BP_Artifact_Currents_Hand_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.BP_Artifact_Currents_Hand_C'",
+    "Template": {
+      "ObjectName": "BP_HandItem_Manifestation_C'Default__BP_HandItem_Manifestation_C'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Inventory/BaseItems/Hand/HandItems/BP_HandItem_Manifestation.18"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "FuzzyMatched": false
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ParticleSystem_GEN_VARIABLE",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'NS_CurrentsArtifactHand'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/VFX/Gameplay/Inventory/Items/Artifacts/FX/NS_CurrentsArtifactHand.34"
+      },
+      "OverrideParameters": {},
+      "RelativeLocation": {
+        "X": 59.038704,
+        "Y": 29.341015,
+        "Z": -8.26478
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.1785737E-06,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.99999994,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 4.0,
+      "AttenuationRadius": 50.0,
+      "Intensity": 10.0,
+      "LightColor": {
+        "B": 117,
+        "G": 120,
+        "R": 255,
+        "A": 255,
+        "Hex": "FF7875"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 59.038704,
+        "Y": 29.341015,
+        "Z": -3.5672054
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.1785737E-06,
+        "Roll": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 1.1785737E-06,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 59.038704,
+      "Y": 29.341015,
+      "Z": -3.5672054
+    },
+    "IntensityNits": 10.0,
+    "bUseInverseSquaredFalloff": false
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Artifact_Currents_Hand_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.10"
+      },
+      "VariableGuid": "1B2E5E31-44ADB62E-70EF8587-1A867D50",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_Artifact_Currents_Hand_C:ParticleSystem_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.8"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_BaseHandManifestation_C",
+      "VariableGuid": "A33EE27F-4293D8FA-139C4EA6-0C1DAF9A",
+      "InternalVariableName": "ParticleSystem"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_Artifact_Currents_Hand_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.9"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_BaseHandManifestation_C",
+      "VariableGuid": "C03FD9C0-4115A85E-617D59BF-B373CC7F",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Artifact_Currents_Hand_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Artifact_Currents_Hand_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Artifact_Currents_Hand_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.13"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Artifact_Currents_Hand_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Artifact_Currents_Hand_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.13"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Artifact_Currents_Hand_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PenDriverPro/Plugins/PDFeature_Fig/Content/Gameplay/Inventory/Items/Artifacts/Artifact_03/BP_Artifact_Currents_Hand.11"
+      }
+    }
+  }
+]
