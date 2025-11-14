@@ -1,0 +1,1 @@
+The first entry in DTR_ stores all decisions the computer may take, along with their probability and other data irrelevant to this project.

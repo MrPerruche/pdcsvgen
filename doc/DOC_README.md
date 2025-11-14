@@ -1,0 +1,1 @@
+I list here knowledge gathered from making this project. I may have made mistakes. File name correspond to prefix names.

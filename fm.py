@@ -30,3 +30,6 @@ CLEAR_UNDERLINE: Final[str] = '\033[24m'
 CLEAR_ITALIC: Final[str] = '\033[23m'
 CLEAR_REVERSE: Final[str] = '\033[27m'
 CLEAR_STRIKETHROUGH: Final[str] = '\033[29m'
+
+def printdanger(*values: object, sep: str = ' ', end: str = '\n', file=None, flush=False) -> None:
+    print(BOLD + RED, *values, sep=sep, end=end + CLEAR_ALL, file=file, flush=flush)
