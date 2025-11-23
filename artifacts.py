@@ -25,7 +25,9 @@ def run():
     raw_ace = load_ace(aces)
     parsed = {biome: parse_artifact_type(dtr, raw_ap, raw_ace) for biome, dtr in raw_dtr.items()}
     save_parsed_to_csv(parsed)
-
+    
+    not_impl = parse_unimplemented_aps(parsed, raw_ap, raw_ace)
+    save_not_implemented_csv(not_impl)
 
 def save_parsed_to_csv(parsed: dict[str, dict[str, dict[str, str]]], output_dir="output"):
     # Ensure the output directory exists
@@ -100,7 +102,7 @@ def load_ap(file_src):
 
     # Getting files
     must_load = []
-    BANNED_FILES = ('AP_TestPair.json',)
+    BANNED_FILES = tuple()
     for f in os.listdir(file_src):
         file_name = os.path.basename(f)
         if file_name.startswith('AP_') and file_name.endswith('.json') and file_name not in BANNED_FILES:
@@ -180,99 +182,230 @@ class DTRArtifact:
     evoaps_name_idx: tuple[str, int]
     has_branch_conditions: bool
 
-def parse_artifact_type(dtr: dict[str, Any], ap: dict[str, Any], ace: dict[str, ACEName]) -> defaultdict[str, dict[str, str]]:
-    """"""
-    # Not optimizing, this is a script to generate a csv that'll be used 3 times ever if we're lucky.
-    
-    # 1. Parse decisions
+# ---------------------
+#  Artifact extraction
+# ---------------------
+
+def extract_artifact_index(artifact_cls: str) -> int:
+    idx_str = artifact_cls.split('.')[-1]
+    try:
+        return int(idx_str)
+    except Exception as e:
+        raise ValueError(f"Failed to extract index from artifact path '{artifact_cls}': {e}")
+
+def build_artifact_instance(decision: dict[str, Any]) -> DTRArtifact:
+    artifact_cls = decision['Object']['ObjectPath']
+    artifact = DTRArtifact(
+        artifact_path=artifact_cls,
+        probability=decision['Probability'],
+        evoaps_name_idx=('', 0),
+        has_branch_conditions=False
+    )
+    return artifact
+
+def set_branch_conditions(artifact: "DTRArtifact", decision: dict[str, Any]) -> None:
+    bc = decision.get('BranchConditions')
+    if not bc:
+        return
+    conditions = bc.get('Conditions')
+    if conditions:
+        artifact.has_branch_conditions = True
+
+def resolve_evoaps_info(dtr: dict[str, Any], artifact_cls: str) -> tuple[str, int]:
+    idx = extract_artifact_index(artifact_cls)
+    decision_entry = dtr[idx]
+    evoaps_path = decision_entry['Properties']['ArtifactPairing']['ObjectPath']
+    evoaps_name, evoaps_idx = os.path.basename(evoaps_path).split('.')
+    return evoaps_name, int(evoaps_idx)
+
+def parse_decisions_into_artifacts(dtr: dict[str, Any]) -> list["DTRArtifact"]:
     decisions_obj = dtr[0]
     artifacts = []
-    for decision in decisions_obj['Properties']['Decisions']:
-        
-        # 1.1. Create teh artiact instance
-        artifact_cls = decision['Object']['ObjectPath']
-        artifact = DTRArtifact(
-            artifact_path=artifact_cls,
-            probability=decision['Probability'],
-            evoaps_name_idx=('', 0),
-            has_branch_conditions=False
-        )
-        
-        # 1.2. Ensure there is no peculiar decision behavior
-        branch_conditions = decision.get('BranchConditions')
-        if branch_conditions is not None:
-            conditions = branch_conditions.get('Conditions')
-            if conditions:
-                artifact.has_branch_conditions = True
 
-        # 1.3.1. Get index
-        idx_str = artifact_cls.split('.')[-1]
+    for decision in decisions_obj['Properties']['Decisions']:
+        artifact = build_artifact_instance(decision)
+        set_branch_conditions(artifact, decision)
+
+        artifact_cls = artifact.artifact_path
         try:
-            idx = int(idx_str)
-        except IndexError as e:
-            fm.printdanger(f'WARN: Failed to get index for {decision.artifact_path}! {e}')
+            evoaps_name, evoaps_idx = resolve_evoaps_info(dtr, artifact_cls)
+        except Exception as e:
+            fm.printdanger(f"WARN: Failed to get evoaps for {artifact_cls}! {e}")
             continue
-        # 1.3.2. Set evoaps
-        decision_entry = dtr[idx]  # Get decision details of the artifact
-        evoaps_path = decision_entry['Properties']['ArtifactPairing']['ObjectPath']  # Get evoaps cls path & idx
-        evoaps_name, evoaps_idx = os.path.basename(evoaps_path).split('.')  # Split file name to get file name & index
-        artifact.evoaps_name_idx = (evoaps_name, int(evoaps_idx))  # Format and set to our artifact instance
-        
-        # 1.4. Add artifact
+
+        artifact.evoaps_name_idx = (evoaps_name, evoaps_idx)
         artifacts.append(artifact)
-    
-    # 2. For each DTRArtifact, write down all properties
-    name_to_data: dict[str, dict[str, str]] = defaultdict(dict)
+
+    return artifacts
+
+
+# ---------------------
+#  EvoAP extraction
+# ---------------------
+
+def apply_basic_properties(name_to_data, evoaps_name, artifact):
+    evoaps_inner_name = evoaps_name.removeprefix('AP_')
+    name_to_data[evoaps_name]['InnerName'] = evoaps_inner_name
+    name_to_data[evoaps_name]['Probability'] = artifact.probability
+    name_to_data[evoaps_name]['HasBranchConditions'] = artifact.has_branch_conditions
+    name_to_data[evoaps_name]['PotentiallyMishandled'] = False
+
+def apply_evoaps_properties(name_to_data, evoaps_name, evoaps_properties):
+    for k, v in evoaps_properties.items():
+        match k:
+            case 'Cause' | 'Effect':
+                asset_path_name = v['AssetPathName']
+                sub_path_string = v['SubPathString']
+                if sub_path_string:
+                    fm.printdanger(
+                        f"WARN: Unhandled behavior: SubPathString not empty!"
+                        f" asset_path_name={asset_path_name}, sub_path_string={sub_path_string}"
+                    )
+                    name_to_data[evoaps_name]['PotentiallyMishandled'] = True
+
+                asset_display = (
+                    asset_path_name.split('/')[-1].split('.')[-1].removesuffix('_C')
+                )
+                name_to_data[evoaps_name][k] = asset_display
+
+            case 'NativeClass':
+                pass
+
+            case _:
+                name_to_data[evoaps_name][k] = str(v)
+
+def determine_name_and_description(name_to_data, evoaps_name, evoaps_properties, ace):
+    cause_inc = evoaps_properties.get('CauseMustIncrease', False)
+    effect_inc = evoaps_properties.get('EffectIncreases', False)
+
+    cause_key = name_to_data[evoaps_name]['Cause']
+    effect_key = name_to_data[evoaps_name]['Effect']
+
+    cause_cls = ace.get(cause_key)
+    effect_cls = ace.get(effect_key)
+    if cause_cls is None:
+        raise KeyError(f"Missing cause ACE class: {cause_key}")
+    if effect_cls is None:
+        raise KeyError(f"Missing effect ACE class: {effect_key}")
+
+    cause_name = cause_cls.cause_up_name if cause_inc else cause_cls.cause_down_name
+    effect_name = effect_cls.effect_up_name if effect_inc else effect_cls.effect_down_name
+    name_to_data[evoaps_name]['Name'] = cause_name + ' ' + effect_name
+
+    cause_desc = cause_cls.cause_increase if cause_inc else cause_cls.cause_decrease
+    effect_desc = effect_cls.effect_increase if effect_inc else effect_cls.effect_decrease
+    name_to_data[evoaps_name]['Description'] = cause_desc + ' ' + effect_desc
+
+
+def process_single_artifact(name_to_data, artifact, ap, ace):
+    evoaps_name, evoaps_idx = artifact.evoaps_name_idx
+    evoaps = ap[evoaps_name][evoaps_idx]
+    evoaps_properties = evoaps['Properties']
+
+    apply_basic_properties(name_to_data, evoaps_name, artifact)
+    apply_evoaps_properties(name_to_data, evoaps_name, evoaps_properties)
+    determine_name_and_description(name_to_data, evoaps_name, evoaps_properties, ace)
+
+
+# ---------------------
+#  Main Function
+# ---------------------
+
+def parse_artifact_type(
+    dtr: dict[str, Any],
+    ap: dict[str, Any],
+    ace: dict[str, ACEName]
+) -> defaultdict[str, dict[str, str]]:
+
+    artifacts = parse_decisions_into_artifacts(dtr)
+
+    name_to_data: defaultdict[str, dict[str, str]] = defaultdict(dict)
+
     for artifact in artifacts:
-        # 2.1. get EvoAPs
-        evoaps_name, evoaps_idx = artifact.evoaps_name_idx
-        evoaps_inner_name = evoaps_name.removeprefix('AP_')
-        evoaps = ap[evoaps_name][evoaps_idx]
-        evoaps_properties = evoaps['Properties']
-        
-        # 2.2. Write down non-properties
-        # 2.2.1. Basic stuff
-        name_to_data[evoaps_name]['InnerName'] = evoaps_inner_name
-        name_to_data[evoaps_name]['Probability'] = artifact.probability
-        name_to_data[evoaps_name]['HasBranchConditions'] = artifact.has_branch_conditions
-        name_to_data[evoaps_name]['PotentiallyMishandled'] = False
-        # 2.3. Write down all properties
-        for k, v in evoaps_properties.items():
-            match k:
-                # Format cause & effect to be more readable
-                case 'Cause' | 'Effect':
-                    asset_path_name = v['AssetPathName']
-                    sub_path_string = v['SubPathString']
-                    if sub_path_string:
-                        fm.printdanger(f"WARN: Unhandled behavior: SubPathString is not empty! {asset_path_name=}, {sub_path_string=}")
-                        name_to_data[evoaps_name]['PotentiallyMishandled'] = True
-                    asset_path_display_name = asset_path_name.split('/')[-1].split('.')[-1].removesuffix('_C')
-                    name_to_data[evoaps_name].update({k: asset_path_display_name})
-                case 'NativeClass':
-                    pass
-                case _:
-                    name_to_data[evoaps_name].update({k: str(v)})
-        
-        # 2.4. Throw names on top
-        cause_increase = evoaps_properties.get('CauseMustIncrease')
-        effect_increase = evoaps_properties.get('EffectIncreases')
-        if cause_increase is None: cause_increase = False
-        if effect_increase is None: effect_increase = False
-        cause_cls = ace.get(name_to_data[evoaps_name]['Cause'])
-        effect_cls = ace.get(name_to_data[evoaps_name]['Effect'])
-        if cause_cls is None:
-            raise KeyError(f'Cause class not found: {name_to_data[evoaps_name]["Cause"]} when {ace=}')
-        if effect_cls is None:
-            raise KeyError(f'Effect class not found: {name_to_data[evoaps_name]["Effect"]} when {ace=}')
-        # 2.4.1. Name (_name)
-        cause_name = cause_cls.cause_up_name if cause_increase else cause_cls.cause_down_name
-        effect_name = effect_cls.effect_up_name if effect_increase else effect_cls.effect_down_name
-        name_to_data[evoaps_name]['Name'] = cause_name + ' ' + effect_name
-        # 2.4.2. Description (increase/decrease)
-        cause_description = cause_cls.cause_increase if cause_increase else cause_cls.cause_decrease
-        effect_description = effect_cls.effect_increase if effect_increase else effect_cls.effect_decrease
-        name_to_data[evoaps_name]['Description'] = cause_description + ' ' + effect_description
-    
+        process_single_artifact(name_to_data, artifact, ap, ace)
+
     return name_to_data
-    
-    
+
+def parse_unimplemented_aps(parsed, raw_ap, raw_ace):
+    """
+    Returns { evoaps_name: parsed_row } for all EvoAP entries that
+    appear in raw_ap but were never referenced in any biome's parsed output.
+    """
+
+    # Collect AP names that appear in parsed output
+    used = set()
+    for biome_table in parsed.values():
+        used.update(biome_table.keys())
+
+    not_used = [name for name in raw_ap.keys() if name not in used]
+
+    result = {}
+
+    for evoaps_name in sorted(not_used):
+        for idx in range(len(raw_ap[evoaps_name])):
+            parsed_row = parse_single_evoap_without_dtr(
+                evoaps_name, idx, raw_ap, raw_ace
+            )
+            result[f"{evoaps_name}.{idx}"] = parsed_row
+
+    return result
+
+def save_not_implemented_csv(not_impl, output_dir="output"):
+    os.makedirs(output_dir, exist_ok=True)
+    path = os.path.join(output_dir, "NotImplemented.csv")
+
+    # Determine columns from all rows
+    all_columns = set()
+    for row in not_impl.values():
+        all_columns.update(row.keys())
+
+    # Recommended ordering
+    base = [
+        "Name",
+        "Description",
+        "InnerName",
+        "Cause",
+        "Effect",
+        "PipCost",
+        "Multiplier",
+        "Probability",
+        "HasBranchConditions",
+        "CauseMustIncrease",
+        "EffectIncreases",
+        "PotentiallyMishandled",
+    ]
+
+    columns = base + sorted(c for c in all_columns if c not in base)
+
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=columns)
+        writer.writeheader()
+
+        for key, row in not_impl.items():
+            writer.writerow({col: row.get(col, "") for col in columns})
+
+def parse_single_evoap_without_dtr(evoaps_name, idx, raw_ap, raw_ace):
+    """
+    Build a DTRArtifact with probability=0 and no branch conditions,
+    then run it through the same formatting pipeline.
+    """
+
+    # Fake artifact
+    dummy = DTRArtifact(
+        artifact_path="",             # irrelevant for missing artifacts
+        probability=0.0,              # required field
+        evoaps_name_idx=(evoaps_name, idx),
+        has_branch_conditions=False
+    )
+
+    evoaps = raw_ap[evoaps_name][idx]
+    evoaps_properties = evoaps["Properties"]
+
+    row = defaultdict(dict)
+
+    # Reuse existing parsing logic
+    apply_basic_properties(row, evoaps_name, dummy)
+    apply_evoaps_properties(row, evoaps_name, evoaps_properties)
+    determine_name_and_description(row, evoaps_name, evoaps_properties, raw_ace)
+
+    return row[evoaps_name]
